@@ -3,19 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package joulukalenteri;
+package Backend;
 
 /**
  *
  * @author s1601396
  */
-public class Joulukalenteri {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
-    
+public class Luukut {
+    private String luukku1 = "Romi on homo";
 }
