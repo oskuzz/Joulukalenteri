@@ -149,10 +149,9 @@ public class Main extends javax.swing.JFrame {
         nro1.setFont(new java.awt.Font("Dialog", 0, 70)); // NOI18N
         nro1.setForeground(new java.awt.Color(0, 0, 0));
         nro1.setText("1");
-        getContentPane().add(nro1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 50, -1, -1));
+        getContentPane().add(nro1, new org.netbeans.lib.awtextra.AbsoluteConstraints(75, 50, -1, -1));
 
         luukku1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku1.png"))); // NOI18N
-        luukku1.setBorderPainted(false);
         luukku1.setContentAreaFilled(false);
         luukku1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
