@@ -61,7 +61,10 @@ public class Main extends javax.swing.JFrame {
         jButton21 = new javax.swing.JButton();
         jButton22 = new javax.swing.JButton();
         jButton23 = new javax.swing.JButton();
-        jButton24 = new javax.swing.JButton();
+        nro1 = new javax.swing.JLabel();
+        luukku1 = new javax.swing.JButton();
+        tLuukku1 = new javax.swing.JLabel();
+        Luukku1_back = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -69,84 +72,118 @@ public class Main extends javax.swing.JFrame {
         setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jButton1.setText("jButton1");
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 180, 130, 130));
+        jButton1.setText("12");
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 180, 130, 130));
 
-        jButton2.setText("jButton1");
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 180, 130, 130));
+        jButton2.setText("8");
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 180, 130, 130));
 
-        jButton3.setText("jButton1");
-        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 30, 130, 130));
+        jButton3.setText("17");
+        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 30, 130, 130));
 
-        jButton4.setText("jButton1");
-        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 30, 130, 130));
+        jButton4.setText("13");
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 30, 130, 130));
 
-        jButton5.setText("jButton1");
-        getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 30, 130, 130));
+        jButton5.setText("9");
+        getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 30, 130, 130));
 
-        jButton6.setText("jButton1");
-        getContentPane().add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 180, 130, 130));
+        jButton6.setText("7");
+        getContentPane().add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 180, 130, 130));
 
-        jButton7.setText("jButton1");
-        getContentPane().add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 180, 130, 130));
+        jButton7.setText("2");
+        getContentPane().add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 180, 130, 130));
 
-        jButton8.setText("jButton1");
-        getContentPane().add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 30, 130, 130));
+        jButton8.setText("22");
+        getContentPane().add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 30, 130, 130));
 
-        jButton9.setText("jButton1");
-        getContentPane().add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 180, 130, 130));
+        jButton9.setText("19");
+        getContentPane().add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 180, 130, 130));
 
-        jButton10.setText("jButton1");
-        getContentPane().add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 30, 130, 130));
+        jButton10.setText("5");
+        getContentPane().add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 30, 130, 130));
 
-        jButton11.setText("jButton1");
-        getContentPane().add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 180, 130, 130));
+        jButton11.setText("14");
+        getContentPane().add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 180, 130, 130));
 
-        jButton12.setText("jButton1");
-        getContentPane().add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 330, 130, 130));
+        jButton12.setText("3");
+        getContentPane().add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 330, 130, 130));
 
-        jButton13.setText("jButton1");
-        getContentPane().add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 330, 130, 130));
+        jButton13.setText("10");
+        getContentPane().add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 330, 130, 130));
 
-        jButton14.setText("jButton1");
-        getContentPane().add(jButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 330, 130, 130));
+        jButton14.setText("4");
+        getContentPane().add(jButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 330, 130, 130));
 
-        jButton15.setText("jButton1");
-        getContentPane().add(jButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 330, 130, 130));
+        jButton15.setText("24");
+        getContentPane().add(jButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 330, 130, 130));
 
-        jButton16.setText("jButton1");
-        getContentPane().add(jButton16, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 330, 130, 130));
+        jButton16.setText("6");
+        getContentPane().add(jButton16, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 330, 130, 130));
 
-        jButton17.setText("jButton1");
-        getContentPane().add(jButton17, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 330, 130, 130));
+        jButton17.setText("23");
+        getContentPane().add(jButton17, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 330, 130, 130));
 
-        jButton18.setText("jButton1");
-        getContentPane().add(jButton18, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 480, 130, 130));
+        jButton18.setText("20");
+        getContentPane().add(jButton18, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 480, 130, 130));
 
-        jButton19.setText("jButton1");
-        getContentPane().add(jButton19, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 480, 130, 130));
+        jButton19.setText("11");
+        getContentPane().add(jButton19, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 480, 130, 130));
 
-        jButton20.setText("jButton1");
-        getContentPane().add(jButton20, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 480, 130, 130));
+        jButton20.setText("15");
+        getContentPane().add(jButton20, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 480, 130, 130));
 
-        jButton21.setText("jButton1");
-        getContentPane().add(jButton21, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 480, 130, 130));
+        jButton21.setText("21");
+        getContentPane().add(jButton21, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 480, 130, 130));
 
-        jButton22.setText("jButton1");
-        getContentPane().add(jButton22, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 480, 130, 130));
+        jButton22.setText("18");
+        getContentPane().add(jButton22, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 480, 130, 130));
 
-        jButton23.setText("jButton1");
-        getContentPane().add(jButton23, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 480, 130, 130));
+        jButton23.setText("16");
+        getContentPane().add(jButton23, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 480, 130, 130));
 
-        jButton24.setText("jButton1");
-        getContentPane().add(jButton24, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 30, 130, 130));
+        nro1.setFont(new java.awt.Font("Dialog", 0, 70)); // NOI18N
+        nro1.setForeground(new java.awt.Color(0, 0, 0));
+        nro1.setText("1");
+        getContentPane().add(nro1, new org.netbeans.lib.awtextra.AbsoluteConstraints(75, 50, -1, -1));
+
+        luukku1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku1.png"))); // NOI18N
+        luukku1.setContentAreaFilled(false);
+        luukku1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                luukku1ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(luukku1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 30, 130, 130));
+
+        tLuukku1.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        tLuukku1.setForeground(new java.awt.Color(255, 255, 255));
+        getContentPane().add(tLuukku1, new org.netbeans.lib.awtextra.AbsoluteConstraints(35, 40, 120, 110));
+
+        Luukku1_back.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        Luukku1_back.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku1_back.png"))); // NOI18N
+        getContentPane().add(Luukku1_back, new org.netbeans.lib.awtextra.AbsoluteConstraints(32, 30, 130, 130));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Background.png"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
-        setSize(new java.awt.Dimension(976, 679));
+        pack();
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton4ActionPerformed
+
+    private void luukku1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_luukku1ActionPerformed
+        luukku1.setVisible(false);
+        nro1.setVisible(false);
+        tLuukku1.setText(luukut.getLuukku1());
+    }//GEN-LAST:event_luukku1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -184,6 +221,7 @@ public class Main extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel Luukku1_back;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
@@ -200,7 +238,6 @@ public class Main extends javax.swing.JFrame {
     private javax.swing.JButton jButton21;
     private javax.swing.JButton jButton22;
     private javax.swing.JButton jButton23;
-    private javax.swing.JButton jButton24;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
@@ -209,5 +246,8 @@ public class Main extends javax.swing.JFrame {
     private javax.swing.JButton jButton8;
     private javax.swing.JButton jButton9;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JButton luukku1;
+    private javax.swing.JLabel nro1;
+    private javax.swing.JLabel tLuukku1;
     // End of variables declaration//GEN-END:variables
 }

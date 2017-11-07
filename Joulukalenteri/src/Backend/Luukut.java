@@ -10,7 +10,8 @@ package Backend;
  * @author s1601396
  */
 public class Luukut {
-    private String luukku1 = "Romi on homo";
+
+    private String luukku1 = "Romi on" + "\n" + " homo";
     private String luukku2 = "Romi on homo2";
     private String luukku3 = "Romi on homo3";
     private String luukku4 = "Romi on homo4";
@@ -130,5 +131,5 @@ public class Luukut {
     public String getLuukku24() {
         return luukku24;
     }
-    
+
 }
