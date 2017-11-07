@@ -64,6 +64,7 @@ public class Main extends javax.swing.JFrame {
         nro1 = new javax.swing.JLabel();
         luukku1 = new javax.swing.JButton();
         tLuukku1 = new javax.swing.JLabel();
+        Luukku1_back = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -161,7 +162,12 @@ public class Main extends javax.swing.JFrame {
         getContentPane().add(luukku1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 30, 130, 130));
 
         tLuukku1.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        tLuukku1.setForeground(new java.awt.Color(255, 255, 255));
         getContentPane().add(tLuukku1, new org.netbeans.lib.awtextra.AbsoluteConstraints(35, 40, 120, 110));
+
+        Luukku1_back.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        Luukku1_back.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku1_back.png"))); // NOI18N
+        getContentPane().add(Luukku1_back, new org.netbeans.lib.awtextra.AbsoluteConstraints(32, 30, 130, 130));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Background.png"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
@@ -216,6 +222,7 @@ public class Main extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel Luukku1_back;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
