@@ -132,99 +132,100 @@ public class Avatut {
         this.luukku24 = luukku24;
     }
 
-    public boolean isLuukku1() {
+    public boolean getLuukku1() {
         return luukku1;
     }
 
-    public boolean isLuukku2() {
+    public boolean getLuukku2() {
         return luukku2;
     }
 
-    public boolean isLuukku3() {
+    public boolean getLuukku3() {
         return luukku3;
     }
 
-    public boolean isLuukku4() {
+    public boolean getLuukku4() {
         return luukku4;
     }
 
-    public boolean isLuukku5() {
+    public boolean getLuukku5() {
         return luukku5;
     }
 
-    public boolean isLuukku6() {
+    public boolean getLuukku6() {
         return luukku6;
     }
 
-    public boolean isLuukku7() {
+    public boolean getLuukku7() {
         return luukku7;
     }
 
-    public boolean isLuukku8() {
+    public boolean getLuukku8() {
         return luukku8;
     }
 
-    public boolean isLuukku9() {
+    public boolean getLuukku9() {
         return luukku9;
     }
 
-    public boolean isLuukku10() {
+    public boolean getLuukku10() {
         return luukku10;
     }
 
-    public boolean isLuukku11() {
+    public boolean getLuukku11() {
         return luukku11;
     }
 
-    public boolean isLuukku12() {
+    public boolean getLuukku12() {
         return luukku12;
     }
 
-    public boolean isLuukku13() {
+    public boolean getLuukku13() {
         return luukku13;
     }
 
-    public boolean isLuukku14() {
+    public boolean getLuukku14() {
         return luukku14;
     }
 
-    public boolean isLuukku15() {
+    public boolean getLuukku15() {
         return luukku15;
     }
 
-    public boolean isLuukku16() {
+    public boolean getLuukku16() {
         return luukku16;
     }
 
-    public boolean isLuukku17() {
+    public boolean getLuukku17() {
         return luukku17;
     }
 
-    public boolean isLuukku18() {
+    public boolean getLuukku18() {
         return luukku18;
     }
 
-    public boolean isLuukku19() {
+    public boolean getLuukku19() {
         return luukku19;
     }
 
-    public boolean isLuukku20() {
+    public boolean getLuukku20() {
         return luukku20;
     }
 
-    public boolean isLuukku21() {
+    public boolean getLuukku21() {
         return luukku21;
     }
 
-    public boolean isLuukku22() {
+    public boolean getLuukku22() {
         return luukku22;
     }
 
-    public boolean isLuukku23() {
+    public boolean getLuukku23() {
         return luukku23;
     }
 
-    public boolean isLuukku24() {
+    public boolean getLuukku24() {
         return luukku24;
     }
+
 }
