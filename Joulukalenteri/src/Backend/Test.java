@@ -5,13 +5,6 @@
  */
 package Backend;
 
-import java.io.File;
-import javax.sound.sampled.AudioFileFormat;
-
 public class Test {
 
-    public static void main(String[] args) {
-
-        String bip = "Running_in_the_90s.mp3";
-    }
 }
