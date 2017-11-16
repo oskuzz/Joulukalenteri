@@ -170,6 +170,7 @@ public class Main extends javax.swing.JFrame {
         getContentPane().add(nro1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 50, -1, -1));
 
         luukku1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku1.png"))); // NOI18N
+        luukku1.setBorderPainted(false);
         luukku1.setContentAreaFilled(false);
         luukku1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
