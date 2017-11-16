@@ -40,7 +40,9 @@ public class Main extends javax.swing.JFrame {
 
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
+        nro17 = new javax.swing.JLabel();
+        luukku17 = new javax.swing.JButton();
+        Luukku17_back = new javax.swing.JLabel();
         jButton4 = new javax.swing.JButton();
         jButton5 = new javax.swing.JButton();
         jButton6 = new javax.swing.JButton();
@@ -78,8 +80,24 @@ public class Main extends javax.swing.JFrame {
         jButton2.setText("8");
         getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 180, 130, 130));
 
-        jButton3.setText("17");
-        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 30, 130, 130));
+        nro17.setFont(new java.awt.Font("Dialog", 0, 70)); // NOI18N
+        nro17.setForeground(new java.awt.Color(0, 0, 0));
+        nro17.setText("17");
+        getContentPane().add(nro17, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 50, -1, -1));
+
+        luukku17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17.png"))); // NOI18N
+        luukku17.setBorderPainted(false);
+        luukku17.setContentAreaFilled(false);
+        luukku17.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                luukku17ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(luukku17, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 30, 130, 130));
+
+        Luukku17_back.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        Luukku17_back.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
+        getContentPane().add(Luukku17_back, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
 
         jButton4.setText("13");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
@@ -149,9 +167,10 @@ public class Main extends javax.swing.JFrame {
         nro1.setFont(new java.awt.Font("Dialog", 0, 70)); // NOI18N
         nro1.setForeground(new java.awt.Color(0, 0, 0));
         nro1.setText("1");
-        getContentPane().add(nro1, new org.netbeans.lib.awtextra.AbsoluteConstraints(75, 50, -1, -1));
+        getContentPane().add(nro1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 50, -1, -1));
 
         luukku1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku1.png"))); // NOI18N
+        luukku1.setBorderPainted(false);
         luukku1.setContentAreaFilled(false);
         luukku1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -184,6 +203,11 @@ public class Main extends javax.swing.JFrame {
         nro1.setVisible(false);
         tLuukku1.setText(luukut.getLuukku1());
     }//GEN-LAST:event_luukku1ActionPerformed
+
+    private void luukku17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_luukku17ActionPerformed
+        luukku17.setVisible(false);
+        nro17.setVisible(false);
+    }//GEN-LAST:event_luukku17ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -221,6 +245,7 @@ public class Main extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel Luukku17_back;
     private javax.swing.JLabel Luukku1_back;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
@@ -238,7 +263,6 @@ public class Main extends javax.swing.JFrame {
     private javax.swing.JButton jButton21;
     private javax.swing.JButton jButton22;
     private javax.swing.JButton jButton23;
-    private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton6;
@@ -247,7 +271,9 @@ public class Main extends javax.swing.JFrame {
     private javax.swing.JButton jButton9;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JButton luukku1;
+    private javax.swing.JButton luukku17;
     private javax.swing.JLabel nro1;
+    private javax.swing.JLabel nro17;
     private javax.swing.JLabel tLuukku1;
     // End of variables declaration//GEN-END:variables
 }
