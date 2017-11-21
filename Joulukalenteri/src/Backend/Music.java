@@ -9,15 +9,22 @@ import java.io.File;
 import javax.sound.sampled.*;
 
 public class Music {
-
+    
+    private Clip clip;
+    
     public void audio(String audio) {
         try {
             File file = new File(audio);
-            Clip clip = AudioSystem.getClip();
+            clip = AudioSystem.getClip();
             clip.open(AudioSystem.getAudioInputStream(file));
             clip.start();
+
         } catch (Exception e) {
             System.err.println("Put the music.wav file in the sound folder if you want to play background music, only optional!");
         }
+    }
+    
+    public void stopMusic(){
+        clip.stop();
     }
 }
