@@ -6,69 +6,18 @@
 package Backend;
 
 import java.io.File;
-import java.io.IOException;
 import javax.sound.sampled.*;
 
 public class Music {
 
-    private final int BUFFER_SIZE = 128000;
-    private File soundFile;
-    private AudioInputStream audioStream;
-    private AudioFormat audioFormat;
-    private SourceDataLine sourceLine;
-
-    /**
-     * @param filename the name of the file that is going to be played
-     */
-    public void playSound(String filename){
-
-        String strFilename = filename;
-
+    public void audio(String audio) {
         try {
-            soundFile = new File(strFilename);
+            File file = new File(audio);
+            Clip clip = AudioSystem.getClip();
+            clip.open(AudioSystem.getAudioInputStream(file));
+            clip.start();
         } catch (Exception e) {
-            e.printStackTrace();
-            System.exit(1);
+            System.err.println("Put the music.wav file in the sound folder if you want to play background music, only optional!");
         }
-
-        try {
-            audioStream = AudioSystem.getAudioInputStream(soundFile);
-        } catch (Exception e){
-            e.printStackTrace();
-            System.exit(1);
-        }
-
-        audioFormat = audioStream.getFormat();
-
-        DataLine.Info info = new DataLine.Info(SourceDataLine.class, audioFormat);
-        try {
-            sourceLine = (SourceDataLine) AudioSystem.getLine(info);
-            sourceLine.open(audioFormat);
-        } catch (LineUnavailableException e) {
-            e.printStackTrace();
-            System.exit(1);
-        } catch (Exception e) {
-            e.printStackTrace();
-            System.exit(1);
-        }
-
-        sourceLine.start();
-
-        int nBytesRead = 0;
-        byte[] abData = new byte[BUFFER_SIZE];
-        while (nBytesRead != -1) {
-            try {
-                nBytesRead = audioStream.read(abData, 0, abData.length);
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-            if (nBytesRead >= 0) {
-                @SuppressWarnings("unused")
-                int nBytesWritten = sourceLine.write(abData, 0, nBytesRead);
-            }
-        }
-
-        sourceLine.drain();
-        sourceLine.close();
-    }   
+    }
 }

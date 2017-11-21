@@ -19,10 +19,13 @@ public class Main extends javax.swing.JFrame {
     private Luukut luukut;
     private Avatut avatut;
     private File file;
+    private Music music;
 
     public Main() {
         initComponents();
-
+        
+        music = new Music();
+        
         luukut = new Luukut();
         avatut = new Avatut();
         file = new File();
@@ -202,6 +205,7 @@ public class Main extends javax.swing.JFrame {
         luukku1.setVisible(false);
         nro1.setVisible(false);
         tLuukku1.setText(luukut.getLuukku1());
+        music.audio("Music/Jingle Bells - Boobs Dance.wav");
     }//GEN-LAST:event_luukku1ActionPerformed
 
     private void luukku17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_luukku17ActionPerformed
