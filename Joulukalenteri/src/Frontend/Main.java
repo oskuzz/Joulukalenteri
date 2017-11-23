@@ -26,7 +26,8 @@ public class Main extends javax.swing.JFrame {
 
         avatut = new Avatut();
         file = new File(avatut);
-
+        
+        music.audioLoop("Music/Minecraft Music - Menu 1.wav");
     }
 
     /**
@@ -397,6 +398,11 @@ public class Main extends javax.swing.JFrame {
         luukku16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku16.png"))); // NOI18N
         luukku16.setBorderPainted(false);
         luukku16.setContentAreaFilled(false);
+        luukku16.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                luukku16ActionPerformed(evt);
+            }
+        });
         getContentPane().add(luukku16, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 480, 130, 130));
 
         luukku1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku1.png"))); // NOI18N
@@ -572,6 +578,13 @@ public class Main extends javax.swing.JFrame {
         file.Kirjoitus();
         music.audio("Music/10v100v.wav");
     }//GEN-LAST:event_luukku5ActionPerformed
+
+    private void luukku16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_luukku16ActionPerformed
+        // TODO add your handling code here:
+        luukku16(false);
+        file.Kirjoitus();
+        music.audio("Music/Vesa-Matti Hyvaa puuta.wav");
+    }//GEN-LAST:event_luukku16ActionPerformed
 
     public void luukku1(boolean value) {
         if (!value) {
