@@ -335,7 +335,6 @@ public class Main extends javax.swing.JFrame {
         getContentPane().add(luukku14, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 180, 130, 130));
 
         luukku3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku3.png"))); // NOI18N
-        luukku3.setActionCommand("");
         luukku3.setBorderPainted(false);
         luukku3.setContentAreaFilled(false);
         getContentPane().add(luukku3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 330, 130, 130));
@@ -353,6 +352,11 @@ public class Main extends javax.swing.JFrame {
         luukku24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku24.png"))); // NOI18N
         luukku24.setBorderPainted(false);
         luukku24.setContentAreaFilled(false);
+        luukku24.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                luukku24ActionPerformed(evt);
+            }
+        });
         getContentPane().add(luukku24, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 330, 130, 130));
 
         luukku6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku6.png"))); // NOI18N
@@ -368,11 +372,21 @@ public class Main extends javax.swing.JFrame {
         luukku23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku23.png"))); // NOI18N
         luukku23.setBorderPainted(false);
         luukku23.setContentAreaFilled(false);
+        luukku23.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                luukku23ActionPerformed(evt);
+            }
+        });
         getContentPane().add(luukku23, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 330, 130, 130));
 
         luukku20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku20.png"))); // NOI18N
         luukku20.setBorderPainted(false);
         luukku20.setContentAreaFilled(false);
+        luukku20.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                luukku20ActionPerformed(evt);
+            }
+        });
         getContentPane().add(luukku20, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 480, 130, 130));
 
         luukku11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku11.png"))); // NOI18N
@@ -388,6 +402,11 @@ public class Main extends javax.swing.JFrame {
         luukku21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku21.png"))); // NOI18N
         luukku21.setBorderPainted(false);
         luukku21.setContentAreaFilled(false);
+        luukku21.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                luukku21ActionPerformed(evt);
+            }
+        });
         getContentPane().add(luukku21, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 479, 130, 130));
 
         luukku18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku18.png"))); // NOI18N
@@ -585,6 +604,34 @@ public class Main extends javax.swing.JFrame {
         file.Kirjoitus();
         music.audio("Music/Vesa-Matti Hyvaa puuta.wav");
     }//GEN-LAST:event_luukku16ActionPerformed
+
+    private void luukku24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_luukku24ActionPerformed
+        // TODO add your handling code here:
+        luukku24(false);
+        file.Kirjoitus();
+        music.audio("Music/Joulupukki - Valkoparta.wav");
+    }//GEN-LAST:event_luukku24ActionPerformed
+
+    private void luukku23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_luukku23ActionPerformed
+        // TODO add your handling code here:
+        luukku23(false);
+        file.Kirjoitus();
+        music.audio("Music/Romi Packalen - Final Countdown.wav");
+    }//GEN-LAST:event_luukku23ActionPerformed
+
+    private void luukku21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_luukku21ActionPerformed
+        // TODO add your handling code here:
+        luukku21(false);
+        file.Kirjoitus();
+        music.audio("Music/Kolme Yötä Jouluun.wav");
+    }//GEN-LAST:event_luukku21ActionPerformed
+
+    private void luukku20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_luukku20ActionPerformed
+        // TODO add your handling code here:
+        luukku20(false);
+        file.Kirjoitus();
+        music.audio("Music/Mining Diamonds.wav");
+    }//GEN-LAST:event_luukku20ActionPerformed
 
     public void luukku1(boolean value) {
         if (!value) {
