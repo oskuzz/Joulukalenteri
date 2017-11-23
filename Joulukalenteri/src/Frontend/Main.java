@@ -590,7 +590,7 @@ public class Main extends javax.swing.JFrame {
         if (!value) {
             luukku1.setVisible(false);
             nro1.setVisible(false);
-            avatut.setLuukku1(true);
+            avatut.setLuukku1(false);
         }
     }
 
@@ -598,7 +598,7 @@ public class Main extends javax.swing.JFrame {
         if (!value) {
             luukku2.setVisible(false);
             nro2.setVisible(false);
-            avatut.setLuukku2(true);
+            avatut.setLuukku2(false);
         }
     }
 
@@ -606,7 +606,7 @@ public class Main extends javax.swing.JFrame {
         if (!value) {
             luukku3.setVisible(false);
             nro3.setVisible(false);
-            avatut.setLuukku3(true);
+            avatut.setLuukku3(false);
         }
     }
 
@@ -614,7 +614,7 @@ public class Main extends javax.swing.JFrame {
         if (!value) {
             luukku4.setVisible(false);
             nro4.setVisible(false);
-            avatut.setLuukku4(true);
+            avatut.setLuukku4(false);
         }
     }
 
@@ -622,7 +622,7 @@ public class Main extends javax.swing.JFrame {
         if (!value) {
             luukku5.setVisible(false);
             nro5.setVisible(false);
-            avatut.setLuukku5(true);
+            avatut.setLuukku5(false);
         }
     }
 
@@ -630,7 +630,7 @@ public class Main extends javax.swing.JFrame {
         if (!value) {
             luukku6.setVisible(false);
             nro6.setVisible(false);
-            avatut.setLuukku6(true);
+            avatut.setLuukku6(false);
         }
     }
 
@@ -638,7 +638,7 @@ public class Main extends javax.swing.JFrame {
         if (!value) {
             luukku7.setVisible(false);
             nro7.setVisible(false);
-            avatut.setLuukku7(true);
+            avatut.setLuukku7(false);
         }
     }
 
@@ -646,7 +646,7 @@ public class Main extends javax.swing.JFrame {
         if (!value) {
             luukku8.setVisible(false);
             nro8.setVisible(false);
-            avatut.setLuukku8(true);
+            avatut.setLuukku8(false);
         }
     }
 
@@ -654,7 +654,7 @@ public class Main extends javax.swing.JFrame {
         if (!value) {
             luukku9.setVisible(false);
             nro9.setVisible(false);
-            avatut.setLuukku9(true);
+            avatut.setLuukku9(false);
         }
     }
 
@@ -662,7 +662,7 @@ public class Main extends javax.swing.JFrame {
         if (!value) {
             luukku10.setVisible(false);
             nro10.setVisible(false);
-            avatut.setLuukku10(true);
+            avatut.setLuukku10(false);
         }
     }
 
@@ -670,7 +670,7 @@ public class Main extends javax.swing.JFrame {
         if (!value) {
             luukku11.setVisible(false);
             nro11.setVisible(false);
-            avatut.setLuukku11(true);
+            avatut.setLuukku11(false);
         }
     }
 
@@ -678,7 +678,7 @@ public class Main extends javax.swing.JFrame {
         if (!value) {
             luukku12.setVisible(false);
             nro12.setVisible(false);
-            avatut.setLuukku12(true);
+            avatut.setLuukku12(false);
         }
     }
 
@@ -686,7 +686,7 @@ public class Main extends javax.swing.JFrame {
         if (!value) {
             luukku13.setVisible(false);
             nro13.setVisible(false);
-            avatut.setLuukku13(true);
+            avatut.setLuukku13(false);
         }
     }
 
@@ -694,7 +694,7 @@ public class Main extends javax.swing.JFrame {
         if (!value) {
             luukku14.setVisible(false);
             nro14.setVisible(false);
-            avatut.setLuukku14(true);
+            avatut.setLuukku14(false);
         }
     }
 
@@ -702,7 +702,7 @@ public class Main extends javax.swing.JFrame {
         if (!value) {
             luukku15.setVisible(false);
             nro15.setVisible(false);
-            avatut.setLuukku15(true);
+            avatut.setLuukku15(false);
         }
     }
 
@@ -710,7 +710,7 @@ public class Main extends javax.swing.JFrame {
         if (!value) {
             luukku16.setVisible(false);
             nro16.setVisible(false);
-            avatut.setLuukku16(true);
+            avatut.setLuukku16(false);
         }
     }
 
@@ -718,7 +718,7 @@ public class Main extends javax.swing.JFrame {
         if (!value) {
             luukku17.setVisible(false);
             nro17.setVisible(false);
-            avatut.setLuukku17(true);
+            avatut.setLuukku17(false);
         }
     }
 
@@ -726,7 +726,7 @@ public class Main extends javax.swing.JFrame {
         if (!value) {
             luukku18.setVisible(false);
             nro18.setVisible(false);
-            avatut.setLuukku18(true);
+            avatut.setLuukku18(false);
         }
     }
 
@@ -734,7 +734,7 @@ public class Main extends javax.swing.JFrame {
         if (!value) {
             luukku19.setVisible(false);
             nro19.setVisible(false);
-            avatut.setLuukku19(true);
+            avatut.setLuukku19(false);
         }
     }
 
@@ -742,7 +742,7 @@ public class Main extends javax.swing.JFrame {
         if (!value) {
             luukku20.setVisible(false);
             nro20.setVisible(false);
-            avatut.setLuukku20(true);
+            avatut.setLuukku20(false);
         }
     }
 
@@ -750,7 +750,7 @@ public class Main extends javax.swing.JFrame {
         if (!value) {
             luukku21.setVisible(false);
             nro21.setVisible(false);
-            avatut.setLuukku21(true);
+            avatut.setLuukku21(false);
         }
     }
 
@@ -758,7 +758,7 @@ public class Main extends javax.swing.JFrame {
         if (!value) {
             luukku22.setVisible(false);
             nro22.setVisible(false);
-            avatut.setLuukku22(true);
+            avatut.setLuukku22(false);
         }
     }
 
@@ -766,7 +766,7 @@ public class Main extends javax.swing.JFrame {
         if (!value) {
             luukku23.setVisible(false);
             nro23.setVisible(false);
-            avatut.setLuukku23(true);
+            avatut.setLuukku23(false);
         }
     }
 
@@ -774,7 +774,7 @@ public class Main extends javax.swing.JFrame {
         if (!value) {
             luukku24.setVisible(false);
             nro24.setVisible(false);
-            avatut.setLuukku24(true);
+            avatut.setLuukku24(false);
         }
     }
 
