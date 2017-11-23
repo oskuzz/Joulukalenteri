@@ -27,7 +27,7 @@ public class Main extends javax.swing.JFrame {
         luukut = new Luukut();
         
         avatut = new Avatut();
-        file = new File(avatut);
+        file = new File(avatut);    
         
     }
 
@@ -64,33 +64,9 @@ public class Main extends javax.swing.JFrame {
         nro17 = new javax.swing.JLabel();
         nro13 = new javax.swing.JLabel();
         nro1 = new javax.swing.JLabel();
-        Luukku17_back1 = new javax.swing.JLabel();
-        Luukku17_back2 = new javax.swing.JLabel();
-        Luukku17_back3 = new javax.swing.JLabel();
-        Luukku17_back4 = new javax.swing.JLabel();
-        Luukku17_back5 = new javax.swing.JLabel();
-        Luukku17_back6 = new javax.swing.JLabel();
-        Luukku17_back7 = new javax.swing.JLabel();
-        Luukku17_back8 = new javax.swing.JLabel();
-        Luukku17_back9 = new javax.swing.JLabel();
-        Luukku17_back10 = new javax.swing.JLabel();
-        Luukku17_back11 = new javax.swing.JLabel();
-        Luukku17_back12 = new javax.swing.JLabel();
-        Luukku17_back13 = new javax.swing.JLabel();
-        Luukku17_back14 = new javax.swing.JLabel();
-        Luukku17_back15 = new javax.swing.JLabel();
-        Luukku17_back16 = new javax.swing.JLabel();
-        Luukku17_back17 = new javax.swing.JLabel();
-        Luukku17_back18 = new javax.swing.JLabel();
-        Luukku17_back19 = new javax.swing.JLabel();
-        Luukku17_back20 = new javax.swing.JLabel();
-        Luukku17_back21 = new javax.swing.JLabel();
-        Luukku17_back22 = new javax.swing.JLabel();
-        Luukku17_back23 = new javax.swing.JLabel();
         luukku12 = new javax.swing.JButton();
         luukku8 = new javax.swing.JButton();
         luukku17 = new javax.swing.JButton();
-        Luukku17_back = new javax.swing.JLabel();
         luukku13 = new javax.swing.JButton();
         luukku9 = new javax.swing.JButton();
         luukku7 = new javax.swing.JButton();
@@ -112,7 +88,30 @@ public class Main extends javax.swing.JFrame {
         luukku18 = new javax.swing.JButton();
         luukku16 = new javax.swing.JButton();
         luukku1 = new javax.swing.JButton();
-        tLuukku1 = new javax.swing.JLabel();
+        Luukku13_back = new javax.swing.JLabel();
+        Luukku9_back = new javax.swing.JLabel();
+        Luukku22_back = new javax.swing.JLabel();
+        Luukku5_back = new javax.swing.JLabel();
+        Luukku17_back5 = new javax.swing.JLabel();
+        Luukku17_back6 = new javax.swing.JLabel();
+        Luukku17_back7 = new javax.swing.JLabel();
+        Luukku17_back8 = new javax.swing.JLabel();
+        Luukku17_back9 = new javax.swing.JLabel();
+        Luukku17_back10 = new javax.swing.JLabel();
+        Luukku17_back11 = new javax.swing.JLabel();
+        Luukku17_back12 = new javax.swing.JLabel();
+        Luukku17_back13 = new javax.swing.JLabel();
+        Luukku17_back14 = new javax.swing.JLabel();
+        Luukku17_back15 = new javax.swing.JLabel();
+        Luukku17_back16 = new javax.swing.JLabel();
+        Luukku17_back17 = new javax.swing.JLabel();
+        Luukku17_back18 = new javax.swing.JLabel();
+        Luukku17_back19 = new javax.swing.JLabel();
+        Luukku17_back20 = new javax.swing.JLabel();
+        Luukku17_back21 = new javax.swing.JLabel();
+        Luukku17_back22 = new javax.swing.JLabel();
+        Luukku17_back23 = new javax.swing.JLabel();
+        Luukku17_back = new javax.swing.JLabel();
         Luukku1_back = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
 
@@ -129,7 +128,7 @@ public class Main extends javax.swing.JFrame {
         nro22.setFont(new java.awt.Font("Dialog", 0, 70)); // NOI18N
         nro22.setForeground(new java.awt.Color(0, 0, 0));
         nro22.setText("22");
-        getContentPane().add(nro22, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 50, -1, -1));
+        getContentPane().add(nro22, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 50, -1, -1));
 
         nro5.setFont(new java.awt.Font("Dialog", 0, 70)); // NOI18N
         nro5.setForeground(new java.awt.Color(0, 0, 0));
@@ -154,7 +153,7 @@ public class Main extends javax.swing.JFrame {
         nro2.setFont(new java.awt.Font("Dialog", 0, 70)); // NOI18N
         nro2.setForeground(new java.awt.Color(0, 0, 0));
         nro2.setText("2");
-        getContentPane().add(nro2, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 200, -1, -1));
+        getContentPane().add(nro2, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 200, -1, -1));
 
         nro19.setFont(new java.awt.Font("Dialog", 0, 70)); // NOI18N
         nro19.setForeground(new java.awt.Color(0, 0, 0));
@@ -184,7 +183,7 @@ public class Main extends javax.swing.JFrame {
         nro24.setFont(new java.awt.Font("Dialog", 0, 70)); // NOI18N
         nro24.setForeground(new java.awt.Color(0, 0, 0));
         nro24.setText("24");
-        getContentPane().add(nro24, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 350, -1, -1));
+        getContentPane().add(nro24, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 350, -1, -1));
 
         nro6.setFont(new java.awt.Font("Dialog", 0, 70)); // NOI18N
         nro6.setForeground(new java.awt.Color(0, 0, 0));
@@ -224,7 +223,7 @@ public class Main extends javax.swing.JFrame {
         nro16.setFont(new java.awt.Font("Dialog", 0, 70)); // NOI18N
         nro16.setForeground(new java.awt.Color(0, 0, 0));
         nro16.setText("16");
-        getContentPane().add(nro16, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 500, -1, -1));
+        getContentPane().add(nro16, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 500, -1, -1));
 
         nro17.setFont(new java.awt.Font("Dialog", 0, 70)); // NOI18N
         nro17.setForeground(new java.awt.Color(0, 0, 0));
@@ -240,98 +239,6 @@ public class Main extends javax.swing.JFrame {
         nro1.setForeground(new java.awt.Color(0, 0, 0));
         nro1.setText("1");
         getContentPane().add(nro1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 50, -1, -1));
-
-        Luukku17_back1.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
-        Luukku17_back1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
-        getContentPane().add(Luukku17_back1, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
-
-        Luukku17_back2.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
-        Luukku17_back2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
-        getContentPane().add(Luukku17_back2, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
-
-        Luukku17_back3.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
-        Luukku17_back3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
-        getContentPane().add(Luukku17_back3, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
-
-        Luukku17_back4.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
-        Luukku17_back4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
-        getContentPane().add(Luukku17_back4, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
-
-        Luukku17_back5.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
-        Luukku17_back5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
-        getContentPane().add(Luukku17_back5, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
-
-        Luukku17_back6.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
-        Luukku17_back6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
-        getContentPane().add(Luukku17_back6, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
-
-        Luukku17_back7.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
-        Luukku17_back7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
-        getContentPane().add(Luukku17_back7, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
-
-        Luukku17_back8.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
-        Luukku17_back8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
-        getContentPane().add(Luukku17_back8, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
-
-        Luukku17_back9.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
-        Luukku17_back9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
-        getContentPane().add(Luukku17_back9, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
-
-        Luukku17_back10.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
-        Luukku17_back10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
-        getContentPane().add(Luukku17_back10, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
-
-        Luukku17_back11.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
-        Luukku17_back11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
-        getContentPane().add(Luukku17_back11, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
-
-        Luukku17_back12.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
-        Luukku17_back12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
-        getContentPane().add(Luukku17_back12, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
-
-        Luukku17_back13.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
-        Luukku17_back13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
-        getContentPane().add(Luukku17_back13, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
-
-        Luukku17_back14.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
-        Luukku17_back14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
-        getContentPane().add(Luukku17_back14, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
-
-        Luukku17_back15.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
-        Luukku17_back15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
-        getContentPane().add(Luukku17_back15, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
-
-        Luukku17_back16.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
-        Luukku17_back16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
-        getContentPane().add(Luukku17_back16, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
-
-        Luukku17_back17.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
-        Luukku17_back17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
-        getContentPane().add(Luukku17_back17, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
-
-        Luukku17_back18.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
-        Luukku17_back18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
-        getContentPane().add(Luukku17_back18, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
-
-        Luukku17_back19.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
-        Luukku17_back19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
-        getContentPane().add(Luukku17_back19, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
-
-        Luukku17_back20.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
-        Luukku17_back20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
-        getContentPane().add(Luukku17_back20, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
-
-        Luukku17_back21.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
-        Luukku17_back21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
-        getContentPane().add(Luukku17_back21, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
-
-        Luukku17_back22.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
-        Luukku17_back22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
-        getContentPane().add(Luukku17_back22, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
-
-        Luukku17_back23.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
-        Luukku17_back23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
-        getContentPane().add(Luukku17_back23, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
 
         luukku12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku12.png"))); // NOI18N
         luukku12.setBorderPainted(false);
@@ -352,10 +259,6 @@ public class Main extends javax.swing.JFrame {
             }
         });
         getContentPane().add(luukku17, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 30, 130, 130));
-
-        Luukku17_back.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
-        Luukku17_back.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
-        getContentPane().add(Luukku17_back, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
 
         luukku13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku13.png"))); // NOI18N
         luukku13.setBorderPainted(false);
@@ -479,9 +382,101 @@ public class Main extends javax.swing.JFrame {
         });
         getContentPane().add(luukku1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 30, 130, 130));
 
-        tLuukku1.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
-        tLuukku1.setForeground(new java.awt.Color(255, 255, 255));
-        getContentPane().add(tLuukku1, new org.netbeans.lib.awtextra.AbsoluteConstraints(35, 40, 120, 110));
+        Luukku13_back.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        Luukku13_back.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku13_Back.png"))); // NOI18N
+        getContentPane().add(Luukku13_back, new org.netbeans.lib.awtextra.AbsoluteConstraints(332, 30, 130, 130));
+
+        Luukku9_back.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        Luukku9_back.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku9_Back.png"))); // NOI18N
+        getContentPane().add(Luukku9_back, new org.netbeans.lib.awtextra.AbsoluteConstraints(482, 30, 130, 130));
+
+        Luukku22_back.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        Luukku22_back.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku22_Back.png"))); // NOI18N
+        getContentPane().add(Luukku22_back, new org.netbeans.lib.awtextra.AbsoluteConstraints(632, 30, 130, 130));
+
+        Luukku5_back.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        Luukku5_back.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku5_Back.png"))); // NOI18N
+        getContentPane().add(Luukku5_back, new org.netbeans.lib.awtextra.AbsoluteConstraints(782, 30, 130, 130));
+
+        Luukku17_back5.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        Luukku17_back5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku12_Back.png"))); // NOI18N
+        getContentPane().add(Luukku17_back5, new org.netbeans.lib.awtextra.AbsoluteConstraints(32, 180, 130, 130));
+
+        Luukku17_back6.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        Luukku17_back6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku8_Back.png"))); // NOI18N
+        getContentPane().add(Luukku17_back6, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 180, 130, 130));
+
+        Luukku17_back7.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        Luukku17_back7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku7_Back.png"))); // NOI18N
+        getContentPane().add(Luukku17_back7, new org.netbeans.lib.awtextra.AbsoluteConstraints(332, 180, 130, 130));
+
+        Luukku17_back8.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        Luukku17_back8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku2_Back.png"))); // NOI18N
+        getContentPane().add(Luukku17_back8, new org.netbeans.lib.awtextra.AbsoluteConstraints(482, 180, 130, 130));
+
+        Luukku17_back9.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        Luukku17_back9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku19_Back.png"))); // NOI18N
+        getContentPane().add(Luukku17_back9, new org.netbeans.lib.awtextra.AbsoluteConstraints(632, 180, 130, 130));
+
+        Luukku17_back10.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        Luukku17_back10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku14_Back.png"))); // NOI18N
+        getContentPane().add(Luukku17_back10, new org.netbeans.lib.awtextra.AbsoluteConstraints(782, 180, 130, 130));
+
+        Luukku17_back11.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        Luukku17_back11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku3_Back.png"))); // NOI18N
+        getContentPane().add(Luukku17_back11, new org.netbeans.lib.awtextra.AbsoluteConstraints(32, 330, 130, 130));
+
+        Luukku17_back12.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        Luukku17_back12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku10_Back.png"))); // NOI18N
+        getContentPane().add(Luukku17_back12, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 330, 130, 130));
+
+        Luukku17_back13.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        Luukku17_back13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku4_Back.png"))); // NOI18N
+        getContentPane().add(Luukku17_back13, new org.netbeans.lib.awtextra.AbsoluteConstraints(332, 330, 130, 130));
+
+        Luukku17_back14.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        Luukku17_back14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku24_Back.png"))); // NOI18N
+        getContentPane().add(Luukku17_back14, new org.netbeans.lib.awtextra.AbsoluteConstraints(482, 330, 130, 130));
+
+        Luukku17_back15.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        Luukku17_back15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku6_Back.png"))); // NOI18N
+        getContentPane().add(Luukku17_back15, new org.netbeans.lib.awtextra.AbsoluteConstraints(632, 330, 130, 130));
+
+        Luukku17_back16.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        Luukku17_back16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku23_Back.png"))); // NOI18N
+        getContentPane().add(Luukku17_back16, new org.netbeans.lib.awtextra.AbsoluteConstraints(782, 330, 130, 130));
+
+        Luukku17_back17.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        Luukku17_back17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku20_Back.png"))); // NOI18N
+        getContentPane().add(Luukku17_back17, new org.netbeans.lib.awtextra.AbsoluteConstraints(32, 480, 130, 130));
+
+        Luukku17_back18.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        Luukku17_back18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku11_back.png"))); // NOI18N
+        getContentPane().add(Luukku17_back18, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 480, 130, 130));
+
+        Luukku17_back19.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        Luukku17_back19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku15_back.png"))); // NOI18N
+        getContentPane().add(Luukku17_back19, new org.netbeans.lib.awtextra.AbsoluteConstraints(332, 480, 130, 130));
+
+        Luukku17_back20.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        Luukku17_back20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku21_back.png"))); // NOI18N
+        getContentPane().add(Luukku17_back20, new org.netbeans.lib.awtextra.AbsoluteConstraints(482, 479, 130, 130));
+
+        Luukku17_back21.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        Luukku17_back21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku18_back.png"))); // NOI18N
+        getContentPane().add(Luukku17_back21, new org.netbeans.lib.awtextra.AbsoluteConstraints(632, 480, 130, 130));
+
+        Luukku17_back22.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        Luukku17_back22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku16_back.png"))); // NOI18N
+        getContentPane().add(Luukku17_back22, new org.netbeans.lib.awtextra.AbsoluteConstraints(782, 480, 130, 130));
+
+        Luukku17_back23.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        Luukku17_back23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
+        getContentPane().add(Luukku17_back23, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
+
+        Luukku17_back.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        Luukku17_back.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
+        getContentPane().add(Luukku17_back, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
 
         Luukku1_back.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
         Luukku1_back.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku1_back.png"))); // NOI18N
@@ -516,7 +511,6 @@ public class Main extends javax.swing.JFrame {
         if (!value) {
             luukku1.setVisible(false);
             nro1.setVisible(false);
-            tLuukku1.setText(luukut.getLuukku1());
             avatut.setLuukku1(true);
         }
     }
@@ -768,8 +762,8 @@ public class Main extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel Luukku13_back;
     private javax.swing.JLabel Luukku17_back;
-    private javax.swing.JLabel Luukku17_back1;
     private javax.swing.JLabel Luukku17_back10;
     private javax.swing.JLabel Luukku17_back11;
     private javax.swing.JLabel Luukku17_back12;
@@ -780,19 +774,19 @@ public class Main extends javax.swing.JFrame {
     private javax.swing.JLabel Luukku17_back17;
     private javax.swing.JLabel Luukku17_back18;
     private javax.swing.JLabel Luukku17_back19;
-    private javax.swing.JLabel Luukku17_back2;
     private javax.swing.JLabel Luukku17_back20;
     private javax.swing.JLabel Luukku17_back21;
     private javax.swing.JLabel Luukku17_back22;
     private javax.swing.JLabel Luukku17_back23;
-    private javax.swing.JLabel Luukku17_back3;
-    private javax.swing.JLabel Luukku17_back4;
     private javax.swing.JLabel Luukku17_back5;
     private javax.swing.JLabel Luukku17_back6;
     private javax.swing.JLabel Luukku17_back7;
     private javax.swing.JLabel Luukku17_back8;
     private javax.swing.JLabel Luukku17_back9;
     private javax.swing.JLabel Luukku1_back;
+    private javax.swing.JLabel Luukku22_back;
+    private javax.swing.JLabel Luukku5_back;
+    private javax.swing.JLabel Luukku9_back;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JButton luukku1;
     private javax.swing.JButton luukku10;
@@ -842,6 +836,5 @@ public class Main extends javax.swing.JFrame {
     private javax.swing.JLabel nro7;
     private javax.swing.JLabel nro8;
     private javax.swing.JLabel nro9;
-    private javax.swing.JLabel tLuukku1;
     // End of variables declaration//GEN-END:variables
 }
