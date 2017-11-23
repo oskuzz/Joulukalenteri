@@ -16,16 +16,8 @@ public class File {
     private boolean[] luukut = new boolean[24];
     private Avatut avatut = new Avatut();
 
-    public File() {
-        lisaaLuukut();
-        Kirjoitus();
-
-        Luku();
-        setLuukut();
-
-        for (int i = 0; i < 23; i++) {
-            System.out.println(luukut[i]);
-        }
+    public boolean[] getLuukut() {
+        return luukut;
     }
 
     public void lisaaLuukut() {
@@ -126,8 +118,11 @@ public class File {
             System.out.println("Tiedostoon ei voitu kirjoittaa '" + avatut + "'");
         }
     }
-
+    
     public static void main(String[] args) {
-        new File();
+        File file = new File();
+        file.lisaaLuukut();
+        file.Kirjoitus();
     }
+
 }

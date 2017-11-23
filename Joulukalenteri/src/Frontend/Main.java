@@ -23,9 +23,9 @@ public class Main extends javax.swing.JFrame {
 
     public Main() {
         initComponents();
-        
+
         music = new Music();
-        
+
         luukut = new Luukut();
         avatut = new Avatut();
         file = new File();
@@ -41,31 +41,31 @@ public class Main extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
+        luukku12 = new javax.swing.JButton();
+        luukku8 = new javax.swing.JButton();
         nro17 = new javax.swing.JLabel();
         luukku17 = new javax.swing.JButton();
         Luukku17_back = new javax.swing.JLabel();
-        jButton4 = new javax.swing.JButton();
-        jButton5 = new javax.swing.JButton();
-        jButton6 = new javax.swing.JButton();
-        jButton7 = new javax.swing.JButton();
-        jButton8 = new javax.swing.JButton();
-        jButton9 = new javax.swing.JButton();
-        jButton10 = new javax.swing.JButton();
-        jButton11 = new javax.swing.JButton();
-        jButton12 = new javax.swing.JButton();
-        jButton13 = new javax.swing.JButton();
-        jButton14 = new javax.swing.JButton();
-        jButton15 = new javax.swing.JButton();
-        jButton16 = new javax.swing.JButton();
-        jButton17 = new javax.swing.JButton();
-        jButton18 = new javax.swing.JButton();
-        jButton19 = new javax.swing.JButton();
-        jButton20 = new javax.swing.JButton();
-        jButton21 = new javax.swing.JButton();
-        jButton22 = new javax.swing.JButton();
-        jButton23 = new javax.swing.JButton();
+        luukku13 = new javax.swing.JButton();
+        luukku9 = new javax.swing.JButton();
+        luukku7 = new javax.swing.JButton();
+        luukku2 = new javax.swing.JButton();
+        luukku22 = new javax.swing.JButton();
+        luukku19 = new javax.swing.JButton();
+        luukku5 = new javax.swing.JButton();
+        luukku14 = new javax.swing.JButton();
+        luukku3 = new javax.swing.JButton();
+        luukku10 = new javax.swing.JButton();
+        luukku4 = new javax.swing.JButton();
+        luukku24 = new javax.swing.JButton();
+        luukku6 = new javax.swing.JButton();
+        luukku23 = new javax.swing.JButton();
+        luukku20 = new javax.swing.JButton();
+        luukku11 = new javax.swing.JButton();
+        luukku15 = new javax.swing.JButton();
+        luukku21 = new javax.swing.JButton();
+        luukku18 = new javax.swing.JButton();
+        luukku16 = new javax.swing.JButton();
         nro1 = new javax.swing.JLabel();
         luukku1 = new javax.swing.JButton();
         tLuukku1 = new javax.swing.JLabel();
@@ -77,11 +77,11 @@ public class Main extends javax.swing.JFrame {
         setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jButton1.setText("12");
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 180, 130, 130));
+        luukku12.setText("12");
+        getContentPane().add(luukku12, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 180, 130, 130));
 
-        jButton2.setText("8");
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 180, 130, 130));
+        luukku8.setText("8");
+        getContentPane().add(luukku8, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 180, 130, 130));
 
         nro17.setFont(new java.awt.Font("Dialog", 0, 70)); // NOI18N
         nro17.setForeground(new java.awt.Color(0, 0, 0));
@@ -102,70 +102,70 @@ public class Main extends javax.swing.JFrame {
         Luukku17_back.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
         getContentPane().add(Luukku17_back, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
 
-        jButton4.setText("13");
-        jButton4.addActionListener(new java.awt.event.ActionListener() {
+        luukku13.setText("13");
+        luukku13.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton4ActionPerformed(evt);
+                luukku13ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 30, 130, 130));
+        getContentPane().add(luukku13, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 30, 130, 130));
 
-        jButton5.setText("9");
-        getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 30, 130, 130));
+        luukku9.setText("9");
+        getContentPane().add(luukku9, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 30, 130, 130));
 
-        jButton6.setText("7");
-        getContentPane().add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 180, 130, 130));
+        luukku7.setText("7");
+        getContentPane().add(luukku7, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 180, 130, 130));
 
-        jButton7.setText("2");
-        getContentPane().add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 180, 130, 130));
+        luukku2.setText("2");
+        getContentPane().add(luukku2, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 180, 130, 130));
 
-        jButton8.setText("22");
-        getContentPane().add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 30, 130, 130));
+        luukku22.setText("22");
+        getContentPane().add(luukku22, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 30, 130, 130));
 
-        jButton9.setText("19");
-        getContentPane().add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 180, 130, 130));
+        luukku19.setText("19");
+        getContentPane().add(luukku19, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 180, 130, 130));
 
-        jButton10.setText("5");
-        getContentPane().add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 30, 130, 130));
+        luukku5.setText("5");
+        getContentPane().add(luukku5, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 30, 130, 130));
 
-        jButton11.setText("14");
-        getContentPane().add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 180, 130, 130));
+        luukku14.setText("14");
+        getContentPane().add(luukku14, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 180, 130, 130));
 
-        jButton12.setText("3");
-        getContentPane().add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 330, 130, 130));
+        luukku3.setText("3");
+        getContentPane().add(luukku3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 330, 130, 130));
 
-        jButton13.setText("10");
-        getContentPane().add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 330, 130, 130));
+        luukku10.setText("10");
+        getContentPane().add(luukku10, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 330, 130, 130));
 
-        jButton14.setText("4");
-        getContentPane().add(jButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 330, 130, 130));
+        luukku4.setText("4");
+        getContentPane().add(luukku4, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 330, 130, 130));
 
-        jButton15.setText("24");
-        getContentPane().add(jButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 330, 130, 130));
+        luukku24.setText("24");
+        getContentPane().add(luukku24, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 330, 130, 130));
 
-        jButton16.setText("6");
-        getContentPane().add(jButton16, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 330, 130, 130));
+        luukku6.setText("6");
+        getContentPane().add(luukku6, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 330, 130, 130));
 
-        jButton17.setText("23");
-        getContentPane().add(jButton17, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 330, 130, 130));
+        luukku23.setText("23");
+        getContentPane().add(luukku23, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 330, 130, 130));
 
-        jButton18.setText("20");
-        getContentPane().add(jButton18, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 480, 130, 130));
+        luukku20.setText("20");
+        getContentPane().add(luukku20, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 480, 130, 130));
 
-        jButton19.setText("11");
-        getContentPane().add(jButton19, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 480, 130, 130));
+        luukku11.setText("11");
+        getContentPane().add(luukku11, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 480, 130, 130));
 
-        jButton20.setText("15");
-        getContentPane().add(jButton20, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 480, 130, 130));
+        luukku15.setText("15");
+        getContentPane().add(luukku15, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 480, 130, 130));
 
-        jButton21.setText("21");
-        getContentPane().add(jButton21, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 480, 130, 130));
+        luukku21.setText("21");
+        getContentPane().add(luukku21, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 480, 130, 130));
 
-        jButton22.setText("18");
-        getContentPane().add(jButton22, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 480, 130, 130));
+        luukku18.setText("18");
+        getContentPane().add(luukku18, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 480, 130, 130));
 
-        jButton23.setText("16");
-        getContentPane().add(jButton23, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 480, 130, 130));
+        luukku16.setText("16");
+        getContentPane().add(luukku16, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 480, 130, 130));
 
         nro1.setFont(new java.awt.Font("Dialog", 0, 70)); // NOI18N
         nro1.setForeground(new java.awt.Color(0, 0, 0));
@@ -197,14 +197,12 @@ public class Main extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+    private void luukku13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_luukku13ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton4ActionPerformed
+    }//GEN-LAST:event_luukku13ActionPerformed
 
     private void luukku1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_luukku1ActionPerformed
-        luukku1.setVisible(false);
-        nro1.setVisible(false);
-        tLuukku1.setText(luukut.getLuukku1());
+        luukku1(false);
         music.audio("Music/Jingle Bells - Boobs Dance.wav");
     }//GEN-LAST:event_luukku1ActionPerformed
 
@@ -212,6 +210,202 @@ public class Main extends javax.swing.JFrame {
         luukku17.setVisible(false);
         nro17.setVisible(false);
     }//GEN-LAST:event_luukku17ActionPerformed
+
+    public void luukku1(boolean value) {
+        if (!value) {
+            luukku1.setVisible(false);
+            nro1.setVisible(false);
+            tLuukku1.setText(luukut.getLuukku1());
+        }
+    }
+
+    public void luukku2(boolean value) {
+        if (!value) {
+            luukku2.setVisible(false);
+            nro1.setVisible(false);
+        }
+    }
+
+    public void luukku3(boolean value) {
+        if (!value) {
+            luukku3.setVisible(false);
+            nro1.setVisible(false);
+        }
+    }
+
+    public void luukku4(boolean value) {
+        if (!value) {
+            luukku4.setVisible(false);
+            nro1.setVisible(false);
+        }
+    }
+
+    public void luukku5(boolean value) {
+        if (!value) {
+            luukku5.setVisible(false);
+            nro1.setVisible(false);
+        }
+    }
+
+    public void luukku6(boolean value) {
+        if (!value) {
+            luukku6.setVisible(false);
+            nro1.setVisible(false);
+        }
+    }
+
+    public void luukku7(boolean value) {
+        if (!value) {
+            luukku7.setVisible(false);
+            nro1.setVisible(false);
+        }
+    }
+
+    public void luukku8(boolean value) {
+        if (!value) {
+            luukku8.setVisible(false);
+            nro1.setVisible(false);
+        }
+    }
+
+    public void luukku9(boolean value) {
+        if (!value) {
+            luukku9.setVisible(false);
+            nro1.setVisible(false);
+        }
+    }
+
+    public void luukku10(boolean value) {
+        if (!value) {
+            luukku10.setVisible(false);
+            nro1.setVisible(false);
+        }
+    }
+
+    public void luukku11(boolean value) {
+        if (!value) {
+            luukku11.setVisible(false);
+            nro1.setVisible(false);
+        }
+    }
+
+    public void luukku12(boolean value) {
+        if (!value) {
+            luukku12.setVisible(false);
+            nro1.setVisible(false);
+        }
+    }
+
+    public void luukku13(boolean value) {
+        if (!value) {
+            luukku13.setVisible(false);
+            nro1.setVisible(false);
+        }
+    }
+
+    public void luukku14(boolean value) {
+        if (!value) {
+            luukku14.setVisible(false);
+            nro1.setVisible(false);
+        }
+    }
+
+    public void luukku15(boolean value) {
+        if (!value) {
+            luukku15.setVisible(false);
+            nro1.setVisible(false);
+        }
+    }
+
+    public void luukku16(boolean value) {
+        if (!value) {
+            luukku16.setVisible(false);
+            nro1.setVisible(false);
+        }
+    }
+
+    public void luukku17(boolean value) {
+        if (!value) {
+            luukku17.setVisible(false);
+            nro1.setVisible(false);
+        }
+    }
+
+    public void luukku18(boolean value) {
+        if (!value) {
+            luukku18.setVisible(false);
+            nro1.setVisible(false);
+        }
+    }
+
+    public void luukku19(boolean value) {
+        if (!value) {
+            luukku19.setVisible(false);
+            nro1.setVisible(false);
+        }
+    }
+
+    public void luukku20(boolean value) {
+        if (!value) {
+            luukku20.setVisible(false);
+            nro1.setVisible(false);
+        }
+    }
+
+    public void luukku21(boolean value) {
+        if (!value) {
+            luukku21.setVisible(false);
+            nro1.setVisible(false);
+        }
+    }
+
+    public void luukku22(boolean value) {
+        if (!value) {
+            luukku1.setVisible(false);
+            nro1.setVisible(false);
+        }
+    }
+
+    public void luukku23(boolean value) {
+        if (!value) {
+            luukku1.setVisible(false);
+            nro1.setVisible(false);
+        }
+    }
+
+    public void luukku24(boolean value) {
+        if (!value) {
+            luukku1.setVisible(false);
+            nro1.setVisible(false);
+        }
+    }
+
+    public void avatut() {
+        luukku1(avatut.getLuukku1());
+        luukku2(avatut.getLuukku2());
+        luukku3(avatut.getLuukku3());
+        luukku4(avatut.getLuukku4());
+        luukku5(avatut.getLuukku5());
+        luukku6(avatut.getLuukku6());
+        luukku7(avatut.getLuukku7());
+        luukku8(avatut.getLuukku8());
+        luukku9(avatut.getLuukku9());
+        luukku10(avatut.getLuukku10());
+        luukku11(avatut.getLuukku11());
+        luukku12(avatut.getLuukku12());
+        luukku13(avatut.getLuukku13());
+        luukku14(avatut.getLuukku14());
+        luukku15(avatut.getLuukku15());
+        luukku16(avatut.getLuukku16());
+        luukku17(avatut.getLuukku17());
+        luukku18(avatut.getLuukku18());
+        luukku19(avatut.getLuukku19());
+        luukku20(avatut.getLuukku20());
+        luukku21(avatut.getLuukku21());
+        luukku22(avatut.getLuukku22());
+        luukku23(avatut.getLuukku23());
+        luukku24(avatut.getLuukku24());
+    }
 
     /**
      * @param args the command line arguments
@@ -251,31 +445,31 @@ public class Main extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel Luukku17_back;
     private javax.swing.JLabel Luukku1_back;
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton10;
-    private javax.swing.JButton jButton11;
-    private javax.swing.JButton jButton12;
-    private javax.swing.JButton jButton13;
-    private javax.swing.JButton jButton14;
-    private javax.swing.JButton jButton15;
-    private javax.swing.JButton jButton16;
-    private javax.swing.JButton jButton17;
-    private javax.swing.JButton jButton18;
-    private javax.swing.JButton jButton19;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton20;
-    private javax.swing.JButton jButton21;
-    private javax.swing.JButton jButton22;
-    private javax.swing.JButton jButton23;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
-    private javax.swing.JButton jButton7;
-    private javax.swing.JButton jButton8;
-    private javax.swing.JButton jButton9;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JButton luukku1;
+    private javax.swing.JButton luukku10;
+    private javax.swing.JButton luukku11;
+    private javax.swing.JButton luukku12;
+    private javax.swing.JButton luukku13;
+    private javax.swing.JButton luukku14;
+    private javax.swing.JButton luukku15;
+    private javax.swing.JButton luukku16;
     private javax.swing.JButton luukku17;
+    private javax.swing.JButton luukku18;
+    private javax.swing.JButton luukku19;
+    private javax.swing.JButton luukku2;
+    private javax.swing.JButton luukku20;
+    private javax.swing.JButton luukku21;
+    private javax.swing.JButton luukku22;
+    private javax.swing.JButton luukku23;
+    private javax.swing.JButton luukku24;
+    private javax.swing.JButton luukku3;
+    private javax.swing.JButton luukku4;
+    private javax.swing.JButton luukku5;
+    private javax.swing.JButton luukku6;
+    private javax.swing.JButton luukku7;
+    private javax.swing.JButton luukku8;
+    private javax.swing.JButton luukku9;
     private javax.swing.JLabel nro1;
     private javax.swing.JLabel nro17;
     private javax.swing.JLabel tLuukku1;

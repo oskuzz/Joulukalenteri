@@ -18,6 +18,7 @@ public final class MainGif extends javax.swing.JFrame {
     private Music music;
     private javax.swing.Timer ajastin;
     private int laskuri = 0;
+    private Main main;
 
     /**
      * Creates new form MainGif
@@ -28,6 +29,7 @@ public final class MainGif extends javax.swing.JFrame {
         music = new Music();
         playMusic();
         ajastin();
+        main = new Main();
     }
 
     
@@ -94,8 +96,10 @@ public final class MainGif extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
         this.setVisible(false);
-        new Main().setVisible(true);
+        main.setVisible(true);
         music.stopMusic();
+        main.avatut();
+        
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**

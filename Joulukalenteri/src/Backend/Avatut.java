@@ -11,30 +11,30 @@ package Backend;
  */
 public class Avatut {
 
-    private boolean luukku1 = false;
-    private boolean luukku2 = false;
-    private boolean luukku3 = false;
-    private boolean luukku4 = false;
-    private boolean luukku5 = false;
-    private boolean luukku6 = false;
-    private boolean luukku7 = false;
-    private boolean luukku8 = false;
-    private boolean luukku9 = false;
-    private boolean luukku10 = false;
-    private boolean luukku11 = false;
-    private boolean luukku12 = false;
-    private boolean luukku13 = false;
-    private boolean luukku14 = false;
-    private boolean luukku15 = false;
-    private boolean luukku16 = false;
-    private boolean luukku17 = false;
-    private boolean luukku18 = false;
-    private boolean luukku19 = false;
-    private boolean luukku20 = false;
-    private boolean luukku21 = false;
-    private boolean luukku22 = false;
-    private boolean luukku23 = false;
-    private boolean luukku24 = false;
+    private boolean luukku1 = true;
+    private boolean luukku2 = true;
+    private boolean luukku3 = true;
+    private boolean luukku4 = true;
+    private boolean luukku5 = true;
+    private boolean luukku6 = true;
+    private boolean luukku7 = true;
+    private boolean luukku8 = true;
+    private boolean luukku9 = true;
+    private boolean luukku10 =true;
+    private boolean luukku11 = true;
+    private boolean luukku12 = true;
+    private boolean luukku13 = true;
+    private boolean luukku14 = true;
+    private boolean luukku15 = true;
+    private boolean luukku16 = true;
+    private boolean luukku17 = true;
+    private boolean luukku18 = true;
+    private boolean luukku19 = true;
+    private boolean luukku20 = true;
+    private boolean luukku21 = true;
+    private boolean luukku22 = true;
+    private boolean luukku23 = true;
+    private boolean luukku24 = true;
 
     public void setLuukku1(boolean luukku1) {
         this.luukku1 = luukku1;
