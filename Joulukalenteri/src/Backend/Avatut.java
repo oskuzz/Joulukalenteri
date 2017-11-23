@@ -20,7 +20,7 @@ public class Avatut {
     private boolean luukku7 = true;
     private boolean luukku8 = true;
     private boolean luukku9 = true;
-    private boolean luukku10 =true;
+    private boolean luukku10 = true;
     private boolean luukku11 = true;
     private boolean luukku12 = true;
     private boolean luukku13 = true;

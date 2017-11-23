@@ -14,10 +14,12 @@ import java.io.*;
 public class File {
 
     private boolean[] luukut = new boolean[24];
-    private Avatut avatut = new Avatut();
+    private Avatut avatut;
 
-    public boolean[] getLuukut() {
-        return luukut;
+    public File(Avatut avatut) {
+        this.avatut = avatut;
+        Luku();
+        setLuukut();
     }
 
     public void lisaaLuukut() {
@@ -117,12 +119,6 @@ public class File {
         } catch (IOException ex) {
             System.out.println("Tiedostoon ei voitu kirjoittaa '" + avatut + "'");
         }
-    }
-    
-    public static void main(String[] args) {
-        File file = new File();
-        file.lisaaLuukut();
-        file.Kirjoitus();
     }
 
 }

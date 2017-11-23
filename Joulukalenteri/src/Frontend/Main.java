@@ -23,13 +23,12 @@ public class Main extends javax.swing.JFrame {
 
     public Main() {
         initComponents();
-
         music = new Music();
-
         luukut = new Luukut();
+        
         avatut = new Avatut();
-        file = new File();
-
+        file = new File(avatut);
+        
     }
 
     /**
@@ -41,9 +40,55 @@ public class Main extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        nro9 = new javax.swing.JLabel();
+        nro22 = new javax.swing.JLabel();
+        nro5 = new javax.swing.JLabel();
+        nro12 = new javax.swing.JLabel();
+        nro8 = new javax.swing.JLabel();
+        nro7 = new javax.swing.JLabel();
+        nro2 = new javax.swing.JLabel();
+        nro19 = new javax.swing.JLabel();
+        nro14 = new javax.swing.JLabel();
+        nro3 = new javax.swing.JLabel();
+        nro10 = new javax.swing.JLabel();
+        nro4 = new javax.swing.JLabel();
+        nro24 = new javax.swing.JLabel();
+        nro6 = new javax.swing.JLabel();
+        nro23 = new javax.swing.JLabel();
+        nro20 = new javax.swing.JLabel();
+        nro11 = new javax.swing.JLabel();
+        nro15 = new javax.swing.JLabel();
+        nro21 = new javax.swing.JLabel();
+        nro18 = new javax.swing.JLabel();
+        nro16 = new javax.swing.JLabel();
+        nro17 = new javax.swing.JLabel();
+        nro13 = new javax.swing.JLabel();
+        nro1 = new javax.swing.JLabel();
+        Luukku17_back1 = new javax.swing.JLabel();
+        Luukku17_back2 = new javax.swing.JLabel();
+        Luukku17_back3 = new javax.swing.JLabel();
+        Luukku17_back4 = new javax.swing.JLabel();
+        Luukku17_back5 = new javax.swing.JLabel();
+        Luukku17_back6 = new javax.swing.JLabel();
+        Luukku17_back7 = new javax.swing.JLabel();
+        Luukku17_back8 = new javax.swing.JLabel();
+        Luukku17_back9 = new javax.swing.JLabel();
+        Luukku17_back10 = new javax.swing.JLabel();
+        Luukku17_back11 = new javax.swing.JLabel();
+        Luukku17_back12 = new javax.swing.JLabel();
+        Luukku17_back13 = new javax.swing.JLabel();
+        Luukku17_back14 = new javax.swing.JLabel();
+        Luukku17_back15 = new javax.swing.JLabel();
+        Luukku17_back16 = new javax.swing.JLabel();
+        Luukku17_back17 = new javax.swing.JLabel();
+        Luukku17_back18 = new javax.swing.JLabel();
+        Luukku17_back19 = new javax.swing.JLabel();
+        Luukku17_back20 = new javax.swing.JLabel();
+        Luukku17_back21 = new javax.swing.JLabel();
+        Luukku17_back22 = new javax.swing.JLabel();
+        Luukku17_back23 = new javax.swing.JLabel();
         luukku12 = new javax.swing.JButton();
         luukku8 = new javax.swing.JButton();
-        nro17 = new javax.swing.JLabel();
         luukku17 = new javax.swing.JButton();
         Luukku17_back = new javax.swing.JLabel();
         luukku13 = new javax.swing.JButton();
@@ -66,7 +111,6 @@ public class Main extends javax.swing.JFrame {
         luukku21 = new javax.swing.JButton();
         luukku18 = new javax.swing.JButton();
         luukku16 = new javax.swing.JButton();
-        nro1 = new javax.swing.JLabel();
         luukku1 = new javax.swing.JButton();
         tLuukku1 = new javax.swing.JLabel();
         Luukku1_back = new javax.swing.JLabel();
@@ -77,16 +121,227 @@ public class Main extends javax.swing.JFrame {
         setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        luukku12.setText("12");
-        getContentPane().add(luukku12, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 180, 130, 130));
+        nro9.setFont(new java.awt.Font("Dialog", 0, 70)); // NOI18N
+        nro9.setForeground(new java.awt.Color(0, 0, 0));
+        nro9.setText("9");
+        getContentPane().add(nro9, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 50, -1, -1));
 
-        luukku8.setText("8");
-        getContentPane().add(luukku8, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 180, 130, 130));
+        nro22.setFont(new java.awt.Font("Dialog", 0, 70)); // NOI18N
+        nro22.setForeground(new java.awt.Color(0, 0, 0));
+        nro22.setText("22");
+        getContentPane().add(nro22, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 50, -1, -1));
+
+        nro5.setFont(new java.awt.Font("Dialog", 0, 70)); // NOI18N
+        nro5.setForeground(new java.awt.Color(0, 0, 0));
+        nro5.setText("5");
+        getContentPane().add(nro5, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 50, -1, -1));
+
+        nro12.setFont(new java.awt.Font("Dialog", 0, 70)); // NOI18N
+        nro12.setForeground(new java.awt.Color(0, 0, 0));
+        nro12.setText("12");
+        getContentPane().add(nro12, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 200, -1, -1));
+
+        nro8.setFont(new java.awt.Font("Dialog", 0, 70)); // NOI18N
+        nro8.setForeground(new java.awt.Color(0, 0, 0));
+        nro8.setText("8");
+        getContentPane().add(nro8, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 200, -1, -1));
+
+        nro7.setFont(new java.awt.Font("Dialog", 0, 70)); // NOI18N
+        nro7.setForeground(new java.awt.Color(0, 0, 0));
+        nro7.setText("7");
+        getContentPane().add(nro7, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 200, 40, -1));
+
+        nro2.setFont(new java.awt.Font("Dialog", 0, 70)); // NOI18N
+        nro2.setForeground(new java.awt.Color(0, 0, 0));
+        nro2.setText("2");
+        getContentPane().add(nro2, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 200, -1, -1));
+
+        nro19.setFont(new java.awt.Font("Dialog", 0, 70)); // NOI18N
+        nro19.setForeground(new java.awt.Color(0, 0, 0));
+        nro19.setText("19");
+        getContentPane().add(nro19, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 200, -1, -1));
+
+        nro14.setFont(new java.awt.Font("Dialog", 0, 70)); // NOI18N
+        nro14.setForeground(new java.awt.Color(0, 0, 0));
+        nro14.setText("14");
+        getContentPane().add(nro14, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 200, -1, -1));
+
+        nro3.setFont(new java.awt.Font("Dialog", 0, 70)); // NOI18N
+        nro3.setForeground(new java.awt.Color(0, 0, 0));
+        nro3.setText("3");
+        getContentPane().add(nro3, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 350, -1, -1));
+
+        nro10.setFont(new java.awt.Font("Dialog", 0, 70)); // NOI18N
+        nro10.setForeground(new java.awt.Color(0, 0, 0));
+        nro10.setText("10");
+        getContentPane().add(nro10, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 350, -1, -1));
+
+        nro4.setFont(new java.awt.Font("Dialog", 0, 70)); // NOI18N
+        nro4.setForeground(new java.awt.Color(0, 0, 0));
+        nro4.setText("4");
+        getContentPane().add(nro4, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 350, -1, -1));
+
+        nro24.setFont(new java.awt.Font("Dialog", 0, 70)); // NOI18N
+        nro24.setForeground(new java.awt.Color(0, 0, 0));
+        nro24.setText("24");
+        getContentPane().add(nro24, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 350, -1, -1));
+
+        nro6.setFont(new java.awt.Font("Dialog", 0, 70)); // NOI18N
+        nro6.setForeground(new java.awt.Color(0, 0, 0));
+        nro6.setText("6");
+        getContentPane().add(nro6, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 350, -1, -1));
+
+        nro23.setFont(new java.awt.Font("Dialog", 0, 70)); // NOI18N
+        nro23.setForeground(new java.awt.Color(0, 0, 0));
+        nro23.setText("23");
+        getContentPane().add(nro23, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 350, -1, -1));
+
+        nro20.setFont(new java.awt.Font("Dialog", 0, 70)); // NOI18N
+        nro20.setForeground(new java.awt.Color(0, 0, 0));
+        nro20.setText("20");
+        getContentPane().add(nro20, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 500, -1, -1));
+
+        nro11.setFont(new java.awt.Font("Dialog", 0, 70)); // NOI18N
+        nro11.setForeground(new java.awt.Color(0, 0, 0));
+        nro11.setText("11");
+        getContentPane().add(nro11, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 500, -1, -1));
+
+        nro15.setFont(new java.awt.Font("Dialog", 0, 70)); // NOI18N
+        nro15.setForeground(new java.awt.Color(0, 0, 0));
+        nro15.setText("15");
+        getContentPane().add(nro15, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 500, -1, -1));
+
+        nro21.setFont(new java.awt.Font("Dialog", 0, 70)); // NOI18N
+        nro21.setForeground(new java.awt.Color(0, 0, 0));
+        nro21.setText("21");
+        getContentPane().add(nro21, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 500, -1, -1));
+
+        nro18.setFont(new java.awt.Font("Dialog", 0, 70)); // NOI18N
+        nro18.setForeground(new java.awt.Color(0, 0, 0));
+        nro18.setText("18");
+        getContentPane().add(nro18, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 500, -1, -1));
+
+        nro16.setFont(new java.awt.Font("Dialog", 0, 70)); // NOI18N
+        nro16.setForeground(new java.awt.Color(0, 0, 0));
+        nro16.setText("16");
+        getContentPane().add(nro16, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 500, -1, -1));
 
         nro17.setFont(new java.awt.Font("Dialog", 0, 70)); // NOI18N
         nro17.setForeground(new java.awt.Color(0, 0, 0));
         nro17.setText("17");
         getContentPane().add(nro17, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 50, -1, -1));
+
+        nro13.setFont(new java.awt.Font("Dialog", 0, 70)); // NOI18N
+        nro13.setForeground(new java.awt.Color(0, 0, 0));
+        nro13.setText("13");
+        getContentPane().add(nro13, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 50, -1, -1));
+
+        nro1.setFont(new java.awt.Font("Dialog", 0, 70)); // NOI18N
+        nro1.setForeground(new java.awt.Color(0, 0, 0));
+        nro1.setText("1");
+        getContentPane().add(nro1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 50, -1, -1));
+
+        Luukku17_back1.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        Luukku17_back1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
+        getContentPane().add(Luukku17_back1, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
+
+        Luukku17_back2.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        Luukku17_back2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
+        getContentPane().add(Luukku17_back2, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
+
+        Luukku17_back3.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        Luukku17_back3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
+        getContentPane().add(Luukku17_back3, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
+
+        Luukku17_back4.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        Luukku17_back4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
+        getContentPane().add(Luukku17_back4, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
+
+        Luukku17_back5.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        Luukku17_back5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
+        getContentPane().add(Luukku17_back5, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
+
+        Luukku17_back6.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        Luukku17_back6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
+        getContentPane().add(Luukku17_back6, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
+
+        Luukku17_back7.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        Luukku17_back7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
+        getContentPane().add(Luukku17_back7, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
+
+        Luukku17_back8.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        Luukku17_back8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
+        getContentPane().add(Luukku17_back8, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
+
+        Luukku17_back9.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        Luukku17_back9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
+        getContentPane().add(Luukku17_back9, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
+
+        Luukku17_back10.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        Luukku17_back10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
+        getContentPane().add(Luukku17_back10, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
+
+        Luukku17_back11.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        Luukku17_back11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
+        getContentPane().add(Luukku17_back11, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
+
+        Luukku17_back12.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        Luukku17_back12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
+        getContentPane().add(Luukku17_back12, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
+
+        Luukku17_back13.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        Luukku17_back13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
+        getContentPane().add(Luukku17_back13, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
+
+        Luukku17_back14.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        Luukku17_back14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
+        getContentPane().add(Luukku17_back14, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
+
+        Luukku17_back15.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        Luukku17_back15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
+        getContentPane().add(Luukku17_back15, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
+
+        Luukku17_back16.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        Luukku17_back16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
+        getContentPane().add(Luukku17_back16, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
+
+        Luukku17_back17.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        Luukku17_back17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
+        getContentPane().add(Luukku17_back17, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
+
+        Luukku17_back18.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        Luukku17_back18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
+        getContentPane().add(Luukku17_back18, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
+
+        Luukku17_back19.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        Luukku17_back19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
+        getContentPane().add(Luukku17_back19, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
+
+        Luukku17_back20.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        Luukku17_back20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
+        getContentPane().add(Luukku17_back20, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
+
+        Luukku17_back21.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        Luukku17_back21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
+        getContentPane().add(Luukku17_back21, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
+
+        Luukku17_back22.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        Luukku17_back22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
+        getContentPane().add(Luukku17_back22, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
+
+        Luukku17_back23.setFont(new java.awt.Font("Harlow Solid Italic", 1, 20)); // NOI18N
+        Luukku17_back23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
+        getContentPane().add(Luukku17_back23, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
+
+        luukku12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku12.png"))); // NOI18N
+        luukku12.setBorderPainted(false);
+        luukku12.setContentAreaFilled(false);
+        getContentPane().add(luukku12, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 180, 130, 130));
+
+        luukku8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku8.png"))); // NOI18N
+        luukku8.setBorderPainted(false);
+        luukku8.setContentAreaFilled(false);
+        getContentPane().add(luukku8, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 180, 130, 130));
 
         luukku17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17.png"))); // NOI18N
         luukku17.setBorderPainted(false);
@@ -102,7 +357,10 @@ public class Main extends javax.swing.JFrame {
         Luukku17_back.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku17_back.png"))); // NOI18N
         getContentPane().add(Luukku17_back, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 30, 130, 130));
 
-        luukku13.setText("13");
+        luukku13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku13.png"))); // NOI18N
+        luukku13.setBorderPainted(false);
+        luukku13.setOpaque(false);
+        luukku13.setSelected(true);
         luukku13.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 luukku13ActionPerformed(evt);
@@ -110,67 +368,106 @@ public class Main extends javax.swing.JFrame {
         });
         getContentPane().add(luukku13, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 30, 130, 130));
 
-        luukku9.setText("9");
+        luukku9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku9.png"))); // NOI18N
+        luukku9.setBorderPainted(false);
+        luukku9.setContentAreaFilled(false);
         getContentPane().add(luukku9, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 30, 130, 130));
 
-        luukku7.setText("7");
+        luukku7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku7.png"))); // NOI18N
+        luukku7.setBorderPainted(false);
+        luukku7.setContentAreaFilled(false);
         getContentPane().add(luukku7, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 180, 130, 130));
 
-        luukku2.setText("2");
+        luukku2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku2.png"))); // NOI18N
+        luukku2.setBorderPainted(false);
+        luukku2.setContentAreaFilled(false);
+        luukku2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                luukku2ActionPerformed(evt);
+            }
+        });
         getContentPane().add(luukku2, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 180, 130, 130));
 
-        luukku22.setText("22");
+        luukku22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku22.png"))); // NOI18N
+        luukku22.setBorderPainted(false);
+        luukku22.setContentAreaFilled(false);
         getContentPane().add(luukku22, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 30, 130, 130));
 
-        luukku19.setText("19");
+        luukku19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku19.png"))); // NOI18N
+        luukku19.setBorderPainted(false);
+        luukku19.setContentAreaFilled(false);
         getContentPane().add(luukku19, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 180, 130, 130));
 
-        luukku5.setText("5");
+        luukku5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku5.png"))); // NOI18N
+        luukku5.setBorderPainted(false);
+        luukku5.setContentAreaFilled(false);
         getContentPane().add(luukku5, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 30, 130, 130));
 
-        luukku14.setText("14");
+        luukku14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku14.png"))); // NOI18N
+        luukku14.setBorderPainted(false);
+        luukku14.setContentAreaFilled(false);
         getContentPane().add(luukku14, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 180, 130, 130));
 
-        luukku3.setText("3");
+        luukku3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku3.png"))); // NOI18N
+        luukku3.setActionCommand("");
+        luukku3.setBorderPainted(false);
+        luukku3.setContentAreaFilled(false);
         getContentPane().add(luukku3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 330, 130, 130));
 
-        luukku10.setText("10");
+        luukku10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku10.png"))); // NOI18N
+        luukku10.setBorderPainted(false);
+        luukku10.setContentAreaFilled(false);
         getContentPane().add(luukku10, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 330, 130, 130));
 
-        luukku4.setText("4");
+        luukku4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku4.png"))); // NOI18N
+        luukku4.setBorderPainted(false);
+        luukku4.setContentAreaFilled(false);
         getContentPane().add(luukku4, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 330, 130, 130));
 
-        luukku24.setText("24");
+        luukku24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku24.png"))); // NOI18N
+        luukku24.setBorderPainted(false);
+        luukku24.setContentAreaFilled(false);
         getContentPane().add(luukku24, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 330, 130, 130));
 
-        luukku6.setText("6");
+        luukku6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku6.png"))); // NOI18N
+        luukku6.setBorderPainted(false);
+        luukku6.setContentAreaFilled(false);
         getContentPane().add(luukku6, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 330, 130, 130));
 
-        luukku23.setText("23");
+        luukku23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku23.png"))); // NOI18N
+        luukku23.setBorderPainted(false);
+        luukku23.setContentAreaFilled(false);
         getContentPane().add(luukku23, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 330, 130, 130));
 
-        luukku20.setText("20");
+        luukku20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku20.png"))); // NOI18N
+        luukku20.setBorderPainted(false);
+        luukku20.setContentAreaFilled(false);
         getContentPane().add(luukku20, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 480, 130, 130));
 
-        luukku11.setText("11");
+        luukku11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku11.png"))); // NOI18N
+        luukku11.setBorderPainted(false);
+        luukku11.setContentAreaFilled(false);
         getContentPane().add(luukku11, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 480, 130, 130));
 
-        luukku15.setText("15");
+        luukku15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku15.png"))); // NOI18N
+        luukku15.setBorderPainted(false);
+        luukku15.setContentAreaFilled(false);
         getContentPane().add(luukku15, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 480, 130, 130));
 
-        luukku21.setText("21");
-        getContentPane().add(luukku21, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 480, 130, 130));
+        luukku21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku21.png"))); // NOI18N
+        luukku21.setBorderPainted(false);
+        luukku21.setContentAreaFilled(false);
+        getContentPane().add(luukku21, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 479, 130, 130));
 
-        luukku18.setText("18");
+        luukku18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku18.png"))); // NOI18N
+        luukku18.setBorderPainted(false);
+        luukku18.setContentAreaFilled(false);
         getContentPane().add(luukku18, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 480, 130, 130));
 
-        luukku16.setText("16");
+        luukku16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku16.png"))); // NOI18N
+        luukku16.setBorderPainted(false);
+        luukku16.setContentAreaFilled(false);
         getContentPane().add(luukku16, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 480, 130, 130));
-
-        nro1.setFont(new java.awt.Font("Dialog", 0, 70)); // NOI18N
-        nro1.setForeground(new java.awt.Color(0, 0, 0));
-        nro1.setText("1");
-        getContentPane().add(nro1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 50, -1, -1));
 
         luukku1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku1.png"))); // NOI18N
         luukku1.setBorderPainted(false);
@@ -203,180 +500,208 @@ public class Main extends javax.swing.JFrame {
 
     private void luukku1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_luukku1ActionPerformed
         luukku1(false);
+        file.Kirjoitus();
         music.audio("Music/Jingle Bells - Boobs Dance.wav");
     }//GEN-LAST:event_luukku1ActionPerformed
 
     private void luukku17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_luukku17ActionPerformed
-        luukku17.setVisible(false);
-        nro17.setVisible(false);
+        luukku17(false);
     }//GEN-LAST:event_luukku17ActionPerformed
+
+    private void luukku2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_luukku2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_luukku2ActionPerformed
 
     public void luukku1(boolean value) {
         if (!value) {
             luukku1.setVisible(false);
             nro1.setVisible(false);
             tLuukku1.setText(luukut.getLuukku1());
+            avatut.setLuukku1(true);
         }
     }
 
     public void luukku2(boolean value) {
         if (!value) {
             luukku2.setVisible(false);
-            nro1.setVisible(false);
+            nro2.setVisible(false);
+            avatut.setLuukku2(true);
         }
     }
 
     public void luukku3(boolean value) {
         if (!value) {
             luukku3.setVisible(false);
-            nro1.setVisible(false);
+            nro3.setVisible(false);
+            avatut.setLuukku3(true);
         }
     }
 
     public void luukku4(boolean value) {
         if (!value) {
             luukku4.setVisible(false);
-            nro1.setVisible(false);
+            nro3.setVisible(false);
+            avatut.setLuukku4(true);
         }
     }
 
     public void luukku5(boolean value) {
         if (!value) {
             luukku5.setVisible(false);
-            nro1.setVisible(false);
+            nro4.setVisible(false);
+            avatut.setLuukku5(true);
         }
     }
 
     public void luukku6(boolean value) {
         if (!value) {
             luukku6.setVisible(false);
-            nro1.setVisible(false);
+            nro5.setVisible(false);
+            avatut.setLuukku6(true);
         }
     }
 
     public void luukku7(boolean value) {
         if (!value) {
             luukku7.setVisible(false);
-            nro1.setVisible(false);
+            nro6.setVisible(false);
+            avatut.setLuukku7(true);
         }
     }
 
     public void luukku8(boolean value) {
         if (!value) {
             luukku8.setVisible(false);
-            nro1.setVisible(false);
+            nro8.setVisible(false);
+            avatut.setLuukku8(true);
         }
     }
 
     public void luukku9(boolean value) {
         if (!value) {
             luukku9.setVisible(false);
-            nro1.setVisible(false);
+            nro9.setVisible(false);
+            avatut.setLuukku9(true);
         }
     }
 
     public void luukku10(boolean value) {
         if (!value) {
             luukku10.setVisible(false);
-            nro1.setVisible(false);
+            nro10.setVisible(false);
+            avatut.setLuukku10(true);
         }
     }
 
     public void luukku11(boolean value) {
         if (!value) {
             luukku11.setVisible(false);
-            nro1.setVisible(false);
+            nro11.setVisible(false);
+            avatut.setLuukku11(true);
         }
     }
 
     public void luukku12(boolean value) {
         if (!value) {
             luukku12.setVisible(false);
-            nro1.setVisible(false);
+            nro12.setVisible(false);
+            avatut.setLuukku12(true);
         }
     }
 
     public void luukku13(boolean value) {
         if (!value) {
             luukku13.setVisible(false);
-            nro1.setVisible(false);
+            nro13.setVisible(false);
+            avatut.setLuukku13(true);
         }
     }
 
     public void luukku14(boolean value) {
         if (!value) {
             luukku14.setVisible(false);
-            nro1.setVisible(false);
+            nro14.setVisible(false);
+            avatut.setLuukku14(true);
         }
     }
 
     public void luukku15(boolean value) {
         if (!value) {
             luukku15.setVisible(false);
-            nro1.setVisible(false);
+            nro15.setVisible(false);
+            avatut.setLuukku15(true);
         }
     }
 
     public void luukku16(boolean value) {
         if (!value) {
             luukku16.setVisible(false);
-            nro1.setVisible(false);
+            nro16.setVisible(false);
+            avatut.setLuukku16(true);
         }
     }
 
     public void luukku17(boolean value) {
         if (!value) {
             luukku17.setVisible(false);
-            nro1.setVisible(false);
+            nro17.setVisible(false);
+            avatut.setLuukku17(true);
         }
     }
 
     public void luukku18(boolean value) {
         if (!value) {
             luukku18.setVisible(false);
-            nro1.setVisible(false);
+            nro18.setVisible(false);
+            avatut.setLuukku18(true);
         }
     }
 
     public void luukku19(boolean value) {
         if (!value) {
             luukku19.setVisible(false);
-            nro1.setVisible(false);
+            nro19.setVisible(false);
+            avatut.setLuukku19(true);
         }
     }
 
     public void luukku20(boolean value) {
         if (!value) {
             luukku20.setVisible(false);
-            nro1.setVisible(false);
+            nro20.setVisible(false);
+            avatut.setLuukku20(true);
         }
     }
 
     public void luukku21(boolean value) {
         if (!value) {
             luukku21.setVisible(false);
-            nro1.setVisible(false);
+            nro21.setVisible(false);
+            avatut.setLuukku21(true);
         }
     }
 
     public void luukku22(boolean value) {
         if (!value) {
             luukku1.setVisible(false);
-            nro1.setVisible(false);
+            nro22.setVisible(false);
+            avatut.setLuukku22(true);
         }
     }
 
     public void luukku23(boolean value) {
         if (!value) {
             luukku1.setVisible(false);
-            nro1.setVisible(false);
+            nro23.setVisible(false);
+            avatut.setLuukku23(true);
         }
     }
 
     public void luukku24(boolean value) {
         if (!value) {
             luukku1.setVisible(false);
-            nro1.setVisible(false);
+            nro24.setVisible(false);
+            avatut.setLuukku24(true);
         }
     }
 
@@ -444,6 +769,29 @@ public class Main extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel Luukku17_back;
+    private javax.swing.JLabel Luukku17_back1;
+    private javax.swing.JLabel Luukku17_back10;
+    private javax.swing.JLabel Luukku17_back11;
+    private javax.swing.JLabel Luukku17_back12;
+    private javax.swing.JLabel Luukku17_back13;
+    private javax.swing.JLabel Luukku17_back14;
+    private javax.swing.JLabel Luukku17_back15;
+    private javax.swing.JLabel Luukku17_back16;
+    private javax.swing.JLabel Luukku17_back17;
+    private javax.swing.JLabel Luukku17_back18;
+    private javax.swing.JLabel Luukku17_back19;
+    private javax.swing.JLabel Luukku17_back2;
+    private javax.swing.JLabel Luukku17_back20;
+    private javax.swing.JLabel Luukku17_back21;
+    private javax.swing.JLabel Luukku17_back22;
+    private javax.swing.JLabel Luukku17_back23;
+    private javax.swing.JLabel Luukku17_back3;
+    private javax.swing.JLabel Luukku17_back4;
+    private javax.swing.JLabel Luukku17_back5;
+    private javax.swing.JLabel Luukku17_back6;
+    private javax.swing.JLabel Luukku17_back7;
+    private javax.swing.JLabel Luukku17_back8;
+    private javax.swing.JLabel Luukku17_back9;
     private javax.swing.JLabel Luukku1_back;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JButton luukku1;
@@ -471,7 +819,29 @@ public class Main extends javax.swing.JFrame {
     private javax.swing.JButton luukku8;
     private javax.swing.JButton luukku9;
     private javax.swing.JLabel nro1;
+    private javax.swing.JLabel nro10;
+    private javax.swing.JLabel nro11;
+    private javax.swing.JLabel nro12;
+    private javax.swing.JLabel nro13;
+    private javax.swing.JLabel nro14;
+    private javax.swing.JLabel nro15;
+    private javax.swing.JLabel nro16;
     private javax.swing.JLabel nro17;
+    private javax.swing.JLabel nro18;
+    private javax.swing.JLabel nro19;
+    private javax.swing.JLabel nro2;
+    private javax.swing.JLabel nro20;
+    private javax.swing.JLabel nro21;
+    private javax.swing.JLabel nro22;
+    private javax.swing.JLabel nro23;
+    private javax.swing.JLabel nro24;
+    private javax.swing.JLabel nro3;
+    private javax.swing.JLabel nro4;
+    private javax.swing.JLabel nro5;
+    private javax.swing.JLabel nro6;
+    private javax.swing.JLabel nro7;
+    private javax.swing.JLabel nro8;
+    private javax.swing.JLabel nro9;
     private javax.swing.JLabel tLuukku1;
     // End of variables declaration//GEN-END:variables
 }
