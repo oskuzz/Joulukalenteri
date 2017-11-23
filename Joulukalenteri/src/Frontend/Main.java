@@ -16,7 +16,6 @@ public class Main extends javax.swing.JFrame {
     /**
      * Creates new form Main
      */
-    private Luukut luukut;
     private Avatut avatut;
     private File file;
     private Music music;
@@ -24,11 +23,10 @@ public class Main extends javax.swing.JFrame {
     public Main() {
         initComponents();
         music = new Music();
-        luukut = new Luukut();
-        
+
         avatut = new Avatut();
-        file = new File(avatut);    
-        
+        file = new File(avatut);
+
     }
 
     /**
