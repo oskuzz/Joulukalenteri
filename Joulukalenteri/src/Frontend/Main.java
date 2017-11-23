@@ -62,6 +62,7 @@ public class Main extends javax.swing.JFrame {
         nro17 = new javax.swing.JLabel();
         nro13 = new javax.swing.JLabel();
         nro1 = new javax.swing.JLabel();
+        Stop = new javax.swing.JButton();
         luukku12 = new javax.swing.JButton();
         luukku8 = new javax.swing.JButton();
         luukku17 = new javax.swing.JButton();
@@ -238,6 +239,14 @@ public class Main extends javax.swing.JFrame {
         nro1.setText("1");
         getContentPane().add(nro1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 50, -1, -1));
 
+        Stop.setText("Stop Music");
+        Stop.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                StopActionPerformed(evt);
+            }
+        });
+        getContentPane().add(Stop, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 610, -1, -1));
+
         luukku12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku12.png"))); // NOI18N
         luukku12.setBorderPainted(false);
         luukku12.setContentAreaFilled(false);
@@ -272,6 +281,11 @@ public class Main extends javax.swing.JFrame {
         luukku9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku9.png"))); // NOI18N
         luukku9.setBorderPainted(false);
         luukku9.setContentAreaFilled(false);
+        luukku9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                luukku9ActionPerformed(evt);
+            }
+        });
         getContentPane().add(luukku9, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 30, 130, 130));
 
         luukku7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku7.png"))); // NOI18N
@@ -292,6 +306,11 @@ public class Main extends javax.swing.JFrame {
         luukku22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku22.png"))); // NOI18N
         luukku22.setBorderPainted(false);
         luukku22.setContentAreaFilled(false);
+        luukku22.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                luukku22ActionPerformed(evt);
+            }
+        });
         getContentPane().add(luukku22, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 30, 130, 130));
 
         luukku19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku19.png"))); // NOI18N
@@ -302,6 +321,11 @@ public class Main extends javax.swing.JFrame {
         luukku5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku5.png"))); // NOI18N
         luukku5.setBorderPainted(false);
         luukku5.setContentAreaFilled(false);
+        luukku5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                luukku5ActionPerformed(evt);
+            }
+        });
         getContentPane().add(luukku5, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 30, 130, 130));
 
         luukku14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku14.png"))); // NOI18N
@@ -333,6 +357,11 @@ public class Main extends javax.swing.JFrame {
         luukku6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku6.png"))); // NOI18N
         luukku6.setBorderPainted(false);
         luukku6.setContentAreaFilled(false);
+        luukku6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                luukku6ActionPerformed(evt);
+            }
+        });
         getContentPane().add(luukku6, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 330, 130, 130));
 
         luukku23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Luukku23.png"))); // NOI18N
@@ -489,21 +518,60 @@ public class Main extends javax.swing.JFrame {
 
     private void luukku13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_luukku13ActionPerformed
         // TODO add your handling code here:
+        luukku13(false);
+        file.Kirjoitus();
+        music.audio("Music/POKEMON-GO-SONG-by-MISHA-FOR-KIDS-ORIGINAL.wav");
     }//GEN-LAST:event_luukku13ActionPerformed
 
     private void luukku1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_luukku1ActionPerformed
         luukku1(false);
         file.Kirjoitus();
-        music.audio("Music/Jingle Bells - Boobs Dance.wav");
+        music.audio("Music/Cascada - Last Christmas.wav");
     }//GEN-LAST:event_luukku1ActionPerformed
 
     private void luukku17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_luukku17ActionPerformed
         luukku17(false);
+        file.Kirjoitus();
+        music.audio("Music/Cascada - Last Christmas.wav");
     }//GEN-LAST:event_luukku17ActionPerformed
 
     private void luukku2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_luukku2ActionPerformed
         // TODO add your handling code here:
+        file.Kirjoitus();
     }//GEN-LAST:event_luukku2ActionPerformed
+
+    private void luukku22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_luukku22ActionPerformed
+        // TODO add your handling code here:
+        luukku22(false);
+        file.Kirjoitus();
+        music.audio("Music/Aamen.wav");
+    }//GEN-LAST:event_luukku22ActionPerformed
+
+    private void luukku6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_luukku6ActionPerformed
+        // TODO add your handling code here:
+        luukku6(false);
+        file.Kirjoitus();
+        music.audio("Music/Maamme laulu.wav");
+    }//GEN-LAST:event_luukku6ActionPerformed
+
+    private void luukku9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_luukku9ActionPerformed
+        // TODO add your handling code here:
+        luukku9(false);
+        file.Kirjoitus();
+        music.audio("Music/Taivas Lyö Tulta.wav");
+    }//GEN-LAST:event_luukku9ActionPerformed
+
+    private void StopActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_StopActionPerformed
+        // TODO add your handling code here:
+        music.stopMusic();
+    }//GEN-LAST:event_StopActionPerformed
+
+    private void luukku5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_luukku5ActionPerformed
+        // TODO add your handling code here:
+        luukku5(false);
+        file.Kirjoitus();
+        music.audio("Music/10v100v.wav");
+    }//GEN-LAST:event_luukku5ActionPerformed
 
     public void luukku1(boolean value) {
         if (!value) {
@@ -532,7 +600,7 @@ public class Main extends javax.swing.JFrame {
     public void luukku4(boolean value) {
         if (!value) {
             luukku4.setVisible(false);
-            nro3.setVisible(false);
+            nro4.setVisible(false);
             avatut.setLuukku4(true);
         }
     }
@@ -540,7 +608,7 @@ public class Main extends javax.swing.JFrame {
     public void luukku5(boolean value) {
         if (!value) {
             luukku5.setVisible(false);
-            nro4.setVisible(false);
+            nro5.setVisible(false);
             avatut.setLuukku5(true);
         }
     }
@@ -548,7 +616,7 @@ public class Main extends javax.swing.JFrame {
     public void luukku6(boolean value) {
         if (!value) {
             luukku6.setVisible(false);
-            nro5.setVisible(false);
+            nro6.setVisible(false);
             avatut.setLuukku6(true);
         }
     }
@@ -556,7 +624,7 @@ public class Main extends javax.swing.JFrame {
     public void luukku7(boolean value) {
         if (!value) {
             luukku7.setVisible(false);
-            nro6.setVisible(false);
+            nro7.setVisible(false);
             avatut.setLuukku7(true);
         }
     }
@@ -675,7 +743,7 @@ public class Main extends javax.swing.JFrame {
 
     public void luukku22(boolean value) {
         if (!value) {
-            luukku1.setVisible(false);
+            luukku22.setVisible(false);
             nro22.setVisible(false);
             avatut.setLuukku22(true);
         }
@@ -683,7 +751,7 @@ public class Main extends javax.swing.JFrame {
 
     public void luukku23(boolean value) {
         if (!value) {
-            luukku1.setVisible(false);
+            luukku23.setVisible(false);
             nro23.setVisible(false);
             avatut.setLuukku23(true);
         }
@@ -691,7 +759,7 @@ public class Main extends javax.swing.JFrame {
 
     public void luukku24(boolean value) {
         if (!value) {
-            luukku1.setVisible(false);
+            luukku24.setVisible(false);
             nro24.setVisible(false);
             avatut.setLuukku24(true);
         }
@@ -785,6 +853,7 @@ public class Main extends javax.swing.JFrame {
     private javax.swing.JLabel Luukku22_back;
     private javax.swing.JLabel Luukku5_back;
     private javax.swing.JLabel Luukku9_back;
+    private javax.swing.JButton Stop;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JButton luukku1;
     private javax.swing.JButton luukku10;
