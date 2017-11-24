@@ -12,6 +12,9 @@ import java.io.*;
  * @author s1601396
  */
 public class File {
+    
+    //Ohjelman avautuessa Luku() + setLuukut()
+    //Luukun avattua lisaLuukut() + Kirjoitus()
 
     private boolean[] luukut = new boolean[24];
 

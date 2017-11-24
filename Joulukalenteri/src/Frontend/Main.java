@@ -37,30 +37,30 @@ public class Main extends javax.swing.JFrame {
         initComponents();
         music = new Music();
 
-        Luukku1 = new Luukku(false, "Music/Cascada - Last Christmas.wav", false);
-        Luukku2 = new Luukku(false, "", false);
-        Luukku3 = new Luukku(false, "Music/Aamen.wav", false);
-        Luukku4 = new Luukku(false, "", false);
-        Luukku5 = new Luukku(false, "Music/10v100v.wav", false);
-        Luukku6 = new Luukku(false, "Music/Maamme laulu.wav", false);
-        Luukku7 = new Luukku(false, "", false);
-        Luukku8 = new Luukku(false, "", false);
-        Luukku9 = new Luukku(false, "Music/Taivas Lyö Tulta.wav", false);
-        Luukku10 = new Luukku(false, "", false);
-        Luukku11 = new Luukku(false, "", false);
-        Luukku12 = new Luukku(false, "", false);
-        Luukku13 = new Luukku(false, "Music/POKEMON-GO-SONG-by-MISHA-FOR-KIDS-ORIGINAL.wav", false);
-        Luukku14 = new Luukku(false, "", false);
-        Luukku15 = new Luukku(false, "", false);
-        Luukku16 = new Luukku(false, "Music/Vesa-Matti Hyvaa puuta.wav", false);
-        Luukku17 = new Luukku(false, "", false);
-        Luukku18 = new Luukku(false, "", false);
-        Luukku19 = new Luukku(false, "", false);
-        Luukku20 = new Luukku(false, "Music/Mining Diamonds.wav", false);
-        Luukku21 = new Luukku(false, "Music/Kolme Yötä Jouluun.wav", false);
-        Luukku22 = new Luukku(false, "", false);
-        Luukku23 = new Luukku(false, "Music/Romi Packalen - Final Countdown.wav", false);
-        Luukku24 = new Luukku(false, "Music/Joulupukki - Valkoparta.wav", false);
+        Luukku1 = new Luukku(true, "Music/Cascada - Last Christmas.wav", false);
+        Luukku2 = new Luukku(true, "", false);
+        Luukku3 = new Luukku(true, "Music/Aamen.wav", false);
+        Luukku4 = new Luukku(true, "", false);
+        Luukku5 = new Luukku(true, "Music/10v100v.wav", false);
+        Luukku6 = new Luukku(true, "Music/Maamme laulu.wav", false);
+        Luukku7 = new Luukku(true, "", false);
+        Luukku8 = new Luukku(true, "", false);
+        Luukku9 = new Luukku(true, "Music/Taivas Lyö Tulta.wav", false);
+        Luukku10 = new Luukku(true, "", false);
+        Luukku11 = new Luukku(true, "", false);
+        Luukku12 = new Luukku(true, "", false);
+        Luukku13 = new Luukku(true, "Music/POKEMON-GO-SONG-by-MISHA-FOR-KIDS-ORIGINAL.wav", false);
+        Luukku14 = new Luukku(true, "", false);
+        Luukku15 = new Luukku(true, "", false);
+        Luukku16 = new Luukku(true, "Music/Vesa-Matti Hyvaa puuta.wav", false);
+        Luukku17 = new Luukku(true, "", false);
+        Luukku18 = new Luukku(true, "", false);
+        Luukku19 = new Luukku(true, "", false);
+        Luukku20 = new Luukku(true, "Music/Mining Diamonds.wav", false);
+        Luukku21 = new Luukku(true, "Music/Kolme Yötä Jouluun.wav", false);
+        Luukku22 = new Luukku(true, "", false);
+        Luukku23 = new Luukku(true, "Music/Romi Packalen - Final Countdown.wav", false);
+        Luukku24 = new Luukku(true, "Music/Joulupukki - Valkoparta.wav", false);
 
         file = new File(Luukku1, Luukku2, Luukku3, Luukku4, Luukku5, Luukku6,
                 Luukku7, Luukku8, Luukku9, Luukku10, Luukku11, Luukku12,
@@ -72,7 +72,9 @@ public class Main extends javax.swing.JFrame {
                 Luukku13, Luukku14, Luukku15, Luukku16, Luukku17, Luukku18,
                 Luukku19, Luukku20, Luukku21, Luukku22, Luukku23, Luukku24);
     }
-
+    
+    //Luukun sisälle tulee music, File.lisaLuukut() + Kirjoitus(), luukku.setVisible(false);
+    
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
