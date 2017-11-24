@@ -29,6 +29,10 @@ public class Luukku {
         this.avattavissa = avattavissa;
     }
 
+    public String getMusic() {
+        return music;
+    }
+
     public boolean getAvattu() {
         return avattu;
     }
