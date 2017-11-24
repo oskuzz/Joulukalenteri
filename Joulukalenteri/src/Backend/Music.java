@@ -9,9 +9,9 @@ import java.io.File;
 import javax.sound.sampled.*;
 
 public class Music {
-    
+
     private Clip clip;
-    
+
     public void audio(String audio) {
         try {
             File file = new File(audio);
@@ -24,7 +24,20 @@ public class Music {
         }
     }
     
-    public void stopMusic(){
+    public void audioLoop(String audio) {
+        try {
+            File file = new File(audio);
+            clip = AudioSystem.getClip();
+            clip.open(AudioSystem.getAudioInputStream(file));
+            clip.start();
+            clip.loop(Clip.LOOP_CONTINUOUSLY);
+
+        } catch (Exception e) {
+            System.err.println("Put the music.wav file in the sound folder if you want to play background music, only optional!");
+        }
+    }
+    
+    public void stopMusic() {
         clip.stop();
     }
 }
