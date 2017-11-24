@@ -38,7 +38,7 @@ public class Main extends javax.swing.JFrame {
         music = new Music();
 
         Luukku1 = new Luukku(true, "Music/Cascada - Last Christmas.wav", false);
-        Luukku2 = new Luukku(true, "", false);
+        Luukku2 = new Luukku(true, "Music/Juice Leskinen - Sika.wav", false);
         Luukku3 = new Luukku(true, "Music/Aamen.wav", false);
         Luukku4 = new Luukku(true, "", false);
         Luukku5 = new Luukku(true, "Music/10v100v.wav", false);
