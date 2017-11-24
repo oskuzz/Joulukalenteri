@@ -6,34 +6,60 @@ import java.util.GregorianCalendar;
 
 public class Time {
 
-    private boolean luukku1 = false;
-    private boolean luukku2 = false;
-    private boolean luukku3 = false;
-    private boolean luukku4 = false;
-    private boolean luukku5 = false;
-    private boolean luukku6 = false;
-    private boolean luukku7 = false;
-    private boolean luukku8 = false;
-    private boolean luukku9 = false;
-    private boolean luukku10 = false;
-    private boolean luukku11 = false;
-    private boolean luukku12 = false;
-    private boolean luukku13 = false;
-    private boolean luukku14 = false;
-    private boolean luukku15 = false;
-    private boolean luukku16 = false;
-    private boolean luukku17 = false;
-    private boolean luukku18 = false;
-    private boolean luukku19 = false;
-    private boolean luukku20 = false;
-    private boolean luukku21 = false;
-    private boolean luukku22 = false;
-    private boolean luukku23 = false;
-    private boolean luukku24 = false;
+    private Luukku luukku1;
+    private Luukku luukku2;
+    private Luukku luukku3;
+    private Luukku luukku4;
+    private Luukku luukku5;
+    private Luukku luukku6;
+    private Luukku luukku7;
+    private Luukku luukku8;
+    private Luukku luukku9;
+    private Luukku luukku10;
+    private Luukku luukku11;
+    private Luukku luukku12;
+    private Luukku luukku13;
+    private Luukku luukku14;
+    private Luukku luukku15;
+    private Luukku luukku16;
+    private Luukku luukku17;
+    private Luukku luukku18;
+    private Luukku luukku19;
+    private Luukku luukku20;
+    private Luukku luukku21;
+    private Luukku luukku22;
+    private Luukku luukku23;
+    private Luukku luukku24;
+
+    public Time(Luukku luukku1, Luukku luukku2, Luukku luukku3, Luukku luukku4, Luukku luukku5, Luukku luukku6, Luukku luukku7, Luukku luukku8, Luukku luukku9, Luukku luukku10, Luukku luukku11, Luukku luukku12, Luukku luukku13, Luukku luukku14, Luukku luukku15, Luukku luukku16, Luukku luukku17, Luukku luukku18, Luukku luukku19, Luukku luukku20, Luukku luukku21, Luukku luukku22, Luukku luukku23, Luukku luukku24) {
+        this.luukku1 = luukku1;
+        this.luukku2 = luukku2;
+        this.luukku3 = luukku3;
+        this.luukku4 = luukku4;
+        this.luukku5 = luukku5;
+        this.luukku6 = luukku6;
+        this.luukku7 = luukku7;
+        this.luukku8 = luukku8;
+        this.luukku9 = luukku9;
+        this.luukku10 = luukku10;
+        this.luukku11 = luukku11;
+        this.luukku12 = luukku12;
+        this.luukku13 = luukku13;
+        this.luukku14 = luukku14;
+        this.luukku15 = luukku15;
+        this.luukku16 = luukku16;
+        this.luukku17 = luukku17;
+        this.luukku18 = luukku18;
+        this.luukku19 = luukku19;
+        this.luukku20 = luukku20;
+        this.luukku21 = luukku21;
+        this.luukku22 = luukku22;
+        this.luukku23 = luukku23;
+        this.luukku24 = luukku24;
+    }
 
     public void main(String[] args) {
 
-        Avatut avaa = new Avatut();
         Calendar pv1 = new GregorianCalendar(2017, Calendar.DECEMBER, 1);
         Calendar pv2 = new GregorianCalendar(2017, Calendar.DECEMBER, 2);
         Calendar pv3 = new GregorianCalendar(2017, Calendar.DECEMBER, 3);
@@ -62,7 +88,7 @@ public class Time {
         Date now = new Date();
 
         if ((now.after(pv1.getTime()) || now.equals(pv1.getTime()))) {
-  
+
         }
         if ((now.after(pv2.getTime()) || now.equals(pv2.getTime()))) {
 
@@ -72,7 +98,6 @@ public class Time {
         }
         if ((now.after(pv4.getTime()) || now.equals(pv4.getTime()))) {
 
-        
         }
         if ((now.after(pv5.getTime()) || now.equals(pv5.getTime()))) {
 
@@ -81,7 +106,7 @@ public class Time {
 
         }
         if ((now.after(pv7.getTime()) || now.equals(pv7.getTime()))) {
-  
+
         }
         if ((now.after(pv8.getTime()) || now.equals(pv8.getTime()))) {
 

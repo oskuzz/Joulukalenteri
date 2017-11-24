@@ -16,7 +16,6 @@ public class Main extends javax.swing.JFrame {
     /**
      * Creates new form Main
      */
-    private Avatut avatut;
     private File file;
     private Music music;
 
@@ -24,9 +23,6 @@ public class Main extends javax.swing.JFrame {
         initComponents();
         music = new Music();
 
-        avatut = new Avatut();
-        file = new File(avatut);
-        
         music.audioLoop("Music/Minecraft Music - Menu 1.wav");
     }
 
@@ -637,7 +633,7 @@ public class Main extends javax.swing.JFrame {
         if (!value) {
             luukku1.setVisible(false);
             nro1.setVisible(false);
-            avatut.setLuukku1(false);
+
         }
     }
 
@@ -645,7 +641,6 @@ public class Main extends javax.swing.JFrame {
         if (!value) {
             luukku2.setVisible(false);
             nro2.setVisible(false);
-            avatut.setLuukku2(false);
         }
     }
 
@@ -653,7 +648,6 @@ public class Main extends javax.swing.JFrame {
         if (!value) {
             luukku3.setVisible(false);
             nro3.setVisible(false);
-            avatut.setLuukku3(false);
         }
     }
 
@@ -661,7 +655,6 @@ public class Main extends javax.swing.JFrame {
         if (!value) {
             luukku4.setVisible(false);
             nro4.setVisible(false);
-            avatut.setLuukku4(false);
         }
     }
 
@@ -669,7 +662,6 @@ public class Main extends javax.swing.JFrame {
         if (!value) {
             luukku5.setVisible(false);
             nro5.setVisible(false);
-            avatut.setLuukku5(false);
         }
     }
 
@@ -677,7 +669,6 @@ public class Main extends javax.swing.JFrame {
         if (!value) {
             luukku6.setVisible(false);
             nro6.setVisible(false);
-            avatut.setLuukku6(false);
         }
     }
 
@@ -685,7 +676,6 @@ public class Main extends javax.swing.JFrame {
         if (!value) {
             luukku7.setVisible(false);
             nro7.setVisible(false);
-            avatut.setLuukku7(false);
         }
     }
 
@@ -693,7 +683,6 @@ public class Main extends javax.swing.JFrame {
         if (!value) {
             luukku8.setVisible(false);
             nro8.setVisible(false);
-            avatut.setLuukku8(false);
         }
     }
 
@@ -701,7 +690,6 @@ public class Main extends javax.swing.JFrame {
         if (!value) {
             luukku9.setVisible(false);
             nro9.setVisible(false);
-            avatut.setLuukku9(false);
         }
     }
 
@@ -709,7 +697,6 @@ public class Main extends javax.swing.JFrame {
         if (!value) {
             luukku10.setVisible(false);
             nro10.setVisible(false);
-            avatut.setLuukku10(false);
         }
     }
 
@@ -717,7 +704,6 @@ public class Main extends javax.swing.JFrame {
         if (!value) {
             luukku11.setVisible(false);
             nro11.setVisible(false);
-            avatut.setLuukku11(false);
         }
     }
 
@@ -725,7 +711,6 @@ public class Main extends javax.swing.JFrame {
         if (!value) {
             luukku12.setVisible(false);
             nro12.setVisible(false);
-            avatut.setLuukku12(false);
         }
     }
 
@@ -733,7 +718,6 @@ public class Main extends javax.swing.JFrame {
         if (!value) {
             luukku13.setVisible(false);
             nro13.setVisible(false);
-            avatut.setLuukku13(false);
         }
     }
 
@@ -741,7 +725,6 @@ public class Main extends javax.swing.JFrame {
         if (!value) {
             luukku14.setVisible(false);
             nro14.setVisible(false);
-            avatut.setLuukku14(false);
         }
     }
 
@@ -749,7 +732,6 @@ public class Main extends javax.swing.JFrame {
         if (!value) {
             luukku15.setVisible(false);
             nro15.setVisible(false);
-            avatut.setLuukku15(false);
         }
     }
 
@@ -757,7 +739,6 @@ public class Main extends javax.swing.JFrame {
         if (!value) {
             luukku16.setVisible(false);
             nro16.setVisible(false);
-            avatut.setLuukku16(false);
         }
     }
 
@@ -765,7 +746,6 @@ public class Main extends javax.swing.JFrame {
         if (!value) {
             luukku17.setVisible(false);
             nro17.setVisible(false);
-            avatut.setLuukku17(false);
         }
     }
 
@@ -773,7 +753,6 @@ public class Main extends javax.swing.JFrame {
         if (!value) {
             luukku18.setVisible(false);
             nro18.setVisible(false);
-            avatut.setLuukku18(false);
         }
     }
 
@@ -781,7 +760,6 @@ public class Main extends javax.swing.JFrame {
         if (!value) {
             luukku19.setVisible(false);
             nro19.setVisible(false);
-            avatut.setLuukku19(false);
         }
     }
 
@@ -789,7 +767,6 @@ public class Main extends javax.swing.JFrame {
         if (!value) {
             luukku20.setVisible(false);
             nro20.setVisible(false);
-            avatut.setLuukku20(false);
         }
     }
 
@@ -797,7 +774,6 @@ public class Main extends javax.swing.JFrame {
         if (!value) {
             luukku21.setVisible(false);
             nro21.setVisible(false);
-            avatut.setLuukku21(false);
         }
     }
 
@@ -805,7 +781,6 @@ public class Main extends javax.swing.JFrame {
         if (!value) {
             luukku22.setVisible(false);
             nro22.setVisible(false);
-            avatut.setLuukku22(false);
         }
     }
 
@@ -813,7 +788,6 @@ public class Main extends javax.swing.JFrame {
         if (!value) {
             luukku23.setVisible(false);
             nro23.setVisible(false);
-            avatut.setLuukku23(false);
         }
     }
 
@@ -821,35 +795,7 @@ public class Main extends javax.swing.JFrame {
         if (!value) {
             luukku24.setVisible(false);
             nro24.setVisible(false);
-            avatut.setLuukku24(false);
         }
-    }
-
-    public void avatut() {
-        luukku1(avatut.getLuukku1());
-        luukku2(avatut.getLuukku2());
-        luukku3(avatut.getLuukku3());
-        luukku4(avatut.getLuukku4());
-        luukku5(avatut.getLuukku5());
-        luukku6(avatut.getLuukku6());
-        luukku7(avatut.getLuukku7());
-        luukku8(avatut.getLuukku8());
-        luukku9(avatut.getLuukku9());
-        luukku10(avatut.getLuukku10());
-        luukku11(avatut.getLuukku11());
-        luukku12(avatut.getLuukku12());
-        luukku13(avatut.getLuukku13());
-        luukku14(avatut.getLuukku14());
-        luukku15(avatut.getLuukku15());
-        luukku16(avatut.getLuukku16());
-        luukku17(avatut.getLuukku17());
-        luukku18(avatut.getLuukku18());
-        luukku19(avatut.getLuukku19());
-        luukku20(avatut.getLuukku20());
-        luukku21(avatut.getLuukku21());
-        luukku22(avatut.getLuukku22());
-        luukku23(avatut.getLuukku23());
-        luukku24(avatut.getLuukku24());
     }
 
     /**

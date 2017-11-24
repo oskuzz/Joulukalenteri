@@ -32,8 +32,6 @@ public final class MainGif extends javax.swing.JFrame {
         main = new Main();
     }
 
-    
-
     public void playMusic() {
         music.audio("Music/Jingle Bells - Boobs Dance.wav");
     }
@@ -47,8 +45,8 @@ public final class MainGif extends javax.swing.JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 paivitanumero();
-                
-                if(laskuri == 25){
+
+                if (laskuri == 25) {
                     button();
                     ajastin.stop();
                 }
@@ -98,8 +96,8 @@ public final class MainGif extends javax.swing.JFrame {
         this.setVisible(false);
         main.setVisible(true);
         music.stopMusic();
-        main.avatut();
-        
+
+
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
