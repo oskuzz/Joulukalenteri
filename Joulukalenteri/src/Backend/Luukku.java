@@ -25,20 +25,12 @@ public class Luukku {
         this.avattu = avattu;
     }
 
-    public void setMusic(String music) {
-        this.music = music;
-    }
-
     public void setAvattavissa(boolean avattavissa) {
         this.avattavissa = avattavissa;
     }
 
     public boolean getAvattu() {
         return avattu;
-    }
-
-    public String getMusic() {
-        return music;
     }
 
     public boolean getAvattavissa() {

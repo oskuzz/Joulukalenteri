@@ -18,12 +18,67 @@ public class Main extends javax.swing.JFrame {
      */
     private File file;
     private Music music;
+    private Time time;
+
+    private Luukku Luukku1;
+    private Luukku Luukku2;
+    private Luukku Luukku3;
+    private Luukku Luukku4;
+    private Luukku Luukku5;
+    private Luukku Luukku6;
+    private Luukku Luukku7;
+    private Luukku Luukku8;
+    private Luukku Luukku9;
+    private Luukku Luukku10;
+    private Luukku Luukku11;
+    private Luukku Luukku12;
+    private Luukku Luukku13;
+    private Luukku Luukku14;
+    private Luukku Luukku15;
+    private Luukku Luukku16;
+    private Luukku Luukku17;
+    private Luukku Luukku18;
+    private Luukku Luukku19;
+    private Luukku Luukku20;
+    private Luukku Luukku21;
+    private Luukku Luukku22;
+    private Luukku Luukku23;
+    private Luukku Luukku24;
 
     public Main() {
         initComponents();
         music = new Music();
+        file = new File();
 
-        music.audioLoop("Music/Minecraft Music - Menu 1.wav");
+        Luukku1 = new Luukku(true, "", false);
+        Luukku2 = new Luukku(true, "", false);
+        Luukku3 = new Luukku(true, "", false);
+        Luukku4 = new Luukku(true, "", false);
+        Luukku5 = new Luukku(true, "", false);
+        Luukku6 = new Luukku(true, "", false);
+        Luukku7 = new Luukku(true, "", false);
+        Luukku8 = new Luukku(true, "", false);
+        Luukku9 = new Luukku(true, "", false);
+        Luukku10 = new Luukku(true, "", false);
+        Luukku11 = new Luukku(true, "", false);
+        Luukku12 = new Luukku(true, "", false);
+        Luukku13 = new Luukku(true, "", false);
+        Luukku14 = new Luukku(true, "", false);
+        Luukku15 = new Luukku(true, "", false);
+        Luukku16 = new Luukku(true, "", false);
+        Luukku17 = new Luukku(true, "", false);
+        Luukku18 = new Luukku(true, "", false);
+        Luukku19 = new Luukku(true, "", false);
+        Luukku20 = new Luukku(true, "", false);
+        Luukku21 = new Luukku(true, "", false);
+        Luukku22 = new Luukku(true, "", false);
+        Luukku23 = new Luukku(true, "", false);
+        Luukku24 = new Luukku(true, "", false);
+
+        time = new Time(Luukku1, Luukku2, Luukku3, Luukku4, Luukku5, Luukku6,
+                Luukku7, Luukku8, Luukku9, Luukku10, Luukku11, Luukku12,
+                Luukku13, Luukku14, Luukku15, Luukku16, Luukku17, Luukku18,
+                Luukku19, Luukku20, Luukku21, Luukku22, Luukku23, Luukku24);
     }
 
     /**
@@ -539,20 +594,17 @@ public class Main extends javax.swing.JFrame {
 
     private void luukku13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_luukku13ActionPerformed
         // TODO add your handling code here:
-        luukku13(false);
-        file.Kirjoitus();
+
         music.audio("Music/POKEMON-GO-SONG-by-MISHA-FOR-KIDS-ORIGINAL.wav");
     }//GEN-LAST:event_luukku13ActionPerformed
 
     private void luukku1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_luukku1ActionPerformed
-        luukku1(false);
-        file.Kirjoitus();
+
         music.audio("Music/Cascada - Last Christmas.wav");
     }//GEN-LAST:event_luukku1ActionPerformed
 
     private void luukku17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_luukku17ActionPerformed
-        luukku17(false);
-        file.Kirjoitus();
+
         music.audio("Music/Cascada - Last Christmas.wav");
     }//GEN-LAST:event_luukku17ActionPerformed
 
@@ -563,22 +615,19 @@ public class Main extends javax.swing.JFrame {
 
     private void luukku22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_luukku22ActionPerformed
         // TODO add your handling code here:
-        luukku22(false);
-        file.Kirjoitus();
+
         music.audio("Music/Aamen.wav");
     }//GEN-LAST:event_luukku22ActionPerformed
 
     private void luukku6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_luukku6ActionPerformed
         // TODO add your handling code here:
-        luukku6(false);
-        file.Kirjoitus();
+
         music.audio("Music/Maamme laulu.wav");
     }//GEN-LAST:event_luukku6ActionPerformed
 
     private void luukku9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_luukku9ActionPerformed
         // TODO add your handling code here:
-        luukku9(false);
-        file.Kirjoitus();
+
         music.audio("Music/Taivas Lyö Tulta.wav");
     }//GEN-LAST:event_luukku9ActionPerformed
 
@@ -589,214 +638,39 @@ public class Main extends javax.swing.JFrame {
 
     private void luukku5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_luukku5ActionPerformed
         // TODO add your handling code here:
-        luukku5(false);
-        file.Kirjoitus();
+
         music.audio("Music/10v100v.wav");
     }//GEN-LAST:event_luukku5ActionPerformed
 
     private void luukku16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_luukku16ActionPerformed
         // TODO add your handling code here:
-        luukku16(false);
-        file.Kirjoitus();
+
         music.audio("Music/Vesa-Matti Hyvaa puuta.wav");
     }//GEN-LAST:event_luukku16ActionPerformed
 
     private void luukku24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_luukku24ActionPerformed
         // TODO add your handling code here:
-        luukku24(false);
-        file.Kirjoitus();
+
         music.audio("Music/Joulupukki - Valkoparta.wav");
     }//GEN-LAST:event_luukku24ActionPerformed
 
     private void luukku23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_luukku23ActionPerformed
         // TODO add your handling code here:
-        luukku23(false);
-        file.Kirjoitus();
+
         music.audio("Music/Romi Packalen - Final Countdown.wav");
     }//GEN-LAST:event_luukku23ActionPerformed
 
     private void luukku21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_luukku21ActionPerformed
         // TODO add your handling code here:
-        luukku21(false);
-        file.Kirjoitus();
+
         music.audio("Music/Kolme Yötä Jouluun.wav");
     }//GEN-LAST:event_luukku21ActionPerformed
 
     private void luukku20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_luukku20ActionPerformed
         // TODO add your handling code here:
-        luukku20(false);
-        file.Kirjoitus();
+
         music.audio("Music/Mining Diamonds.wav");
     }//GEN-LAST:event_luukku20ActionPerformed
-
-    public void luukku1(boolean value) {
-        if (!value) {
-            luukku1.setVisible(false);
-            nro1.setVisible(false);
-
-        }
-    }
-
-    public void luukku2(boolean value) {
-        if (!value) {
-            luukku2.setVisible(false);
-            nro2.setVisible(false);
-        }
-    }
-
-    public void luukku3(boolean value) {
-        if (!value) {
-            luukku3.setVisible(false);
-            nro3.setVisible(false);
-        }
-    }
-
-    public void luukku4(boolean value) {
-        if (!value) {
-            luukku4.setVisible(false);
-            nro4.setVisible(false);
-        }
-    }
-
-    public void luukku5(boolean value) {
-        if (!value) {
-            luukku5.setVisible(false);
-            nro5.setVisible(false);
-        }
-    }
-
-    public void luukku6(boolean value) {
-        if (!value) {
-            luukku6.setVisible(false);
-            nro6.setVisible(false);
-        }
-    }
-
-    public void luukku7(boolean value) {
-        if (!value) {
-            luukku7.setVisible(false);
-            nro7.setVisible(false);
-        }
-    }
-
-    public void luukku8(boolean value) {
-        if (!value) {
-            luukku8.setVisible(false);
-            nro8.setVisible(false);
-        }
-    }
-
-    public void luukku9(boolean value) {
-        if (!value) {
-            luukku9.setVisible(false);
-            nro9.setVisible(false);
-        }
-    }
-
-    public void luukku10(boolean value) {
-        if (!value) {
-            luukku10.setVisible(false);
-            nro10.setVisible(false);
-        }
-    }
-
-    public void luukku11(boolean value) {
-        if (!value) {
-            luukku11.setVisible(false);
-            nro11.setVisible(false);
-        }
-    }
-
-    public void luukku12(boolean value) {
-        if (!value) {
-            luukku12.setVisible(false);
-            nro12.setVisible(false);
-        }
-    }
-
-    public void luukku13(boolean value) {
-        if (!value) {
-            luukku13.setVisible(false);
-            nro13.setVisible(false);
-        }
-    }
-
-    public void luukku14(boolean value) {
-        if (!value) {
-            luukku14.setVisible(false);
-            nro14.setVisible(false);
-        }
-    }
-
-    public void luukku15(boolean value) {
-        if (!value) {
-            luukku15.setVisible(false);
-            nro15.setVisible(false);
-        }
-    }
-
-    public void luukku16(boolean value) {
-        if (!value) {
-            luukku16.setVisible(false);
-            nro16.setVisible(false);
-        }
-    }
-
-    public void luukku17(boolean value) {
-        if (!value) {
-            luukku17.setVisible(false);
-            nro17.setVisible(false);
-        }
-    }
-
-    public void luukku18(boolean value) {
-        if (!value) {
-            luukku18.setVisible(false);
-            nro18.setVisible(false);
-        }
-    }
-
-    public void luukku19(boolean value) {
-        if (!value) {
-            luukku19.setVisible(false);
-            nro19.setVisible(false);
-        }
-    }
-
-    public void luukku20(boolean value) {
-        if (!value) {
-            luukku20.setVisible(false);
-            nro20.setVisible(false);
-        }
-    }
-
-    public void luukku21(boolean value) {
-        if (!value) {
-            luukku21.setVisible(false);
-            nro21.setVisible(false);
-        }
-    }
-
-    public void luukku22(boolean value) {
-        if (!value) {
-            luukku22.setVisible(false);
-            nro22.setVisible(false);
-        }
-    }
-
-    public void luukku23(boolean value) {
-        if (!value) {
-            luukku23.setVisible(false);
-            nro23.setVisible(false);
-        }
-    }
-
-    public void luukku24(boolean value) {
-        if (!value) {
-            luukku24.setVisible(false);
-            nro24.setVisible(false);
-        }
-    }
 
     /**
      * @param args the command line arguments
