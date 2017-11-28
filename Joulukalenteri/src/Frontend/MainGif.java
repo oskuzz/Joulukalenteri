@@ -46,7 +46,7 @@ public final class MainGif extends javax.swing.JFrame {
             public void actionPerformed(ActionEvent e) {
                 paivitanumero();
 
-                if (laskuri == 5) {
+                if (laskuri == 40) {
                     button();
                     ajastin.stop();
                 }
@@ -75,6 +75,8 @@ public final class MainGif extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setLocationByPlatform(true);
+        setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jButton1.setText("Siirry kalenteriin");
@@ -86,9 +88,10 @@ public final class MainGif extends javax.swing.JFrame {
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 140, 50));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Jingle-Bells-Boobs-Dance.gif"))); // NOI18N
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1080, -1));
 
-        pack();
+        setSize(new java.awt.Dimension(1025, 712));
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed

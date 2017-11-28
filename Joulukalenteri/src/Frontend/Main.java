@@ -16,7 +16,7 @@ public class Main extends javax.swing.JFrame {
     private Luukku Luukku6;
     private Luukku Luukku7;
     private Luukku Luukku8;
-    private Luukku Luukku9;
+    private Luukku Luukku9; 
     private Luukku Luukku10;
     private Luukku Luukku11;
     private Luukku Luukku12;
@@ -37,7 +37,7 @@ public class Main extends javax.swing.JFrame {
         initComponents();
         music = new Music();
 
-        Luukku1 = new Luukku(false, "Music/Cascada - Last Christmas.wav", true);
+        Luukku1 = new Luukku(true, "Music/Cascada - Last Christmas.wav", true);
         Luukku2 = new Luukku(false, "Music/Juice Leskinen - Sika.wav", true);
         Luukku3 = new Luukku(false, "Music/Aamen.wav", true);
         Luukku4 = new Luukku(false, "", true);
