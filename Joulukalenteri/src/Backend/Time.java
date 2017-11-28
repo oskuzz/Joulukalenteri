@@ -58,7 +58,7 @@ public class Time {
         this.luukku24 = luukku24;
     }
 
-    public void main(String[] args) {
+    public void luukut() {
 
         Calendar pv1 = new GregorianCalendar(2017, Calendar.DECEMBER, 1);
         Calendar pv2 = new GregorianCalendar(2017, Calendar.DECEMBER, 2);
@@ -88,76 +88,76 @@ public class Time {
         Date now = new Date();
 
         if ((now.after(pv1.getTime()) || now.equals(pv1.getTime()))) {
-            luukku1.setAvattavissa(true);
+            luukku1.setAvattavissa(false);
         }
         if ((now.after(pv2.getTime()) || now.equals(pv2.getTime()))) {
-            luukku2.setAvattavissa(true);
+            luukku2.setAvattavissa(false);
         }
         if ((now.after(pv3.getTime()) || now.equals(pv3.getTime()))) {
-            luukku3.setAvattavissa(true);
+            luukku3.setAvattavissa(false);
         }
         if ((now.after(pv4.getTime()) || now.equals(pv4.getTime()))) {
-            luukku4.setAvattavissa(true);
+            luukku4.setAvattavissa(false);
         }
         if ((now.after(pv5.getTime()) || now.equals(pv5.getTime()))) {
-            luukku5.setAvattavissa(true);
+            luukku5.setAvattavissa(false);
         }
         if ((now.after(pv6.getTime()) || now.equals(pv6.getTime()))) {
-            luukku6.setAvattavissa(true);
+            luukku6.setAvattavissa(false);
         }
         if ((now.after(pv7.getTime()) || now.equals(pv7.getTime()))) {
-            luukku7.setAvattavissa(true);
+            luukku7.setAvattavissa(false);
         }
         if ((now.after(pv8.getTime()) || now.equals(pv8.getTime()))) {
-            luukku8.setAvattavissa(true);
+            luukku8.setAvattavissa(false);
         }
         if ((now.after(pv9.getTime()) || now.equals(pv9.getTime()))) {
-            luukku9.setAvattavissa(true);
+            luukku9.setAvattavissa(false);
         }
         if ((now.after(pv10.getTime()) || now.equals(pv10.getTime()))) {
-            luukku10.setAvattavissa(true);
+            luukku10.setAvattavissa(false);
         }
         if ((now.after(pv11.getTime()) || now.equals(pv11.getTime()))) {
-            luukku11.setAvattavissa(true);
+            luukku11.setAvattavissa(false);
         }
         if ((now.after(pv12.getTime()) || now.equals(pv12.getTime()))) {
-            luukku12.setAvattavissa(true);
+            luukku12.setAvattavissa(false);
         }
         if ((now.after(pv13.getTime()) || now.equals(pv13.getTime()))) {
-            luukku13.setAvattavissa(true);
+            luukku13.setAvattavissa(false);
         }
         if ((now.after(pv14.getTime()) || now.equals(pv14.getTime()))) {
-            luukku14.setAvattavissa(true);
+            luukku14.setAvattavissa(false);
         }
         if ((now.after(pv15.getTime()) || now.equals(pv15.getTime()))) {
-            luukku15.setAvattavissa(true);
+            luukku15.setAvattavissa(false);
         }
         if ((now.after(pv16.getTime()) || now.equals(pv16.getTime()))) {
-            luukku16.setAvattavissa(true);
+            luukku16.setAvattavissa(false);
         }
         if ((now.after(pv17.getTime()) || now.equals(pv17.getTime()))) {
-            luukku17.setAvattavissa(true);
+            luukku17.setAvattavissa(false);
         }
         if ((now.after(pv18.getTime()) || now.equals(pv18.getTime()))) {
-            luukku18.setAvattavissa(true);
+            luukku18.setAvattavissa(false);
         }
         if ((now.after(pv19.getTime()) || now.equals(pv19.getTime()))) {
-            luukku19.setAvattavissa(true);
+            luukku19.setAvattavissa(false);
         }
         if ((now.after(pv20.getTime()) || now.equals(pv20.getTime()))) {
-            luukku20.setAvattavissa(true);
+            luukku20.setAvattavissa(false);
         }
         if ((now.after(pv21.getTime()) || now.equals(pv21.getTime()))) {
-            luukku21.setAvattavissa(true);
+            luukku21.setAvattavissa(false);
         }
         if ((now.after(pv22.getTime()) || now.equals(pv22.getTime()))) {
-            luukku22.setAvattavissa(true);
+            luukku22.setAvattavissa(false);
         }
         if ((now.after(pv23.getTime()) || now.equals(pv23.getTime()))) {
-            luukku23.setAvattavissa(true);
+            luukku23.setAvattavissa(false);
         }
         if ((now.after(pv24.getTime()) || now.equals(pv24.getTime()))) {
-            luukku24.setAvattavissa(true);
+            luukku24.setAvattavissa(false);
         }
 
     }

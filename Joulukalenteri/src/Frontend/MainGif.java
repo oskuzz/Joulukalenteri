@@ -46,7 +46,7 @@ public final class MainGif extends javax.swing.JFrame {
             public void actionPerformed(ActionEvent e) {
                 paivitanumero();
 
-                if (laskuri == 25) {
+                if (laskuri == 5) {
                     button();
                     ajastin.stop();
                 }
