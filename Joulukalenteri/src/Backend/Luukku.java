@@ -15,7 +15,7 @@ public class Luukku {
     private String music;
     private boolean avattavissa;
 
-    public Luukku(boolean avattu, String music, boolean avattavissa) {
+    public Luukku(boolean avattavissa, String music, boolean avattu) {
         this.avattu = avattu;
         this.music = music;
         this.avattavissa = avattavissa;

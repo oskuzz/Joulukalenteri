@@ -134,7 +134,8 @@ public class File {
             FileReader tiedostonLukija = new FileReader(avatut);
             BufferedReader bufferedReader = new BufferedReader(tiedostonLukija);
 
-            for (int i = 0; i < 23; i++) {
+            for (int i = 0; i < 24; i++) {
+                System.out.println(i);
                 luukut[i] = Boolean.parseBoolean(line = bufferedReader.readLine());
             }
 
@@ -159,7 +160,7 @@ public class File {
             FileReader tiedostonLukija = new FileReader(avatut);
             BufferedReader bufferedReader = new BufferedReader(tiedostonLukija);
 
-            for (int i = 0; i < 23; i++) {
+            for (int i = 0; i < 24; i++) {
                 bufferedWriter.write(String.valueOf(luukut[i]));
                 bufferedWriter.newLine();
             }

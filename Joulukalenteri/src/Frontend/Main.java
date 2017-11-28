@@ -37,30 +37,30 @@ public class Main extends javax.swing.JFrame {
         initComponents();
         music = new Music();
 
-        Luukku1 = new Luukku(true, "Music/Cascada - Last Christmas.wav", true);
-        Luukku2 = new Luukku(true, "Music/Juice Leskinen - Sika.wav", true);
-        Luukku3 = new Luukku(true, "Music/Aamen.wav", true);
-        Luukku4 = new Luukku(true, "", true);
-        Luukku5 = new Luukku(true, "Music/10v100v.wav", true);
-        Luukku6 = new Luukku(true, "Music/Maamme laulu.wav", true);
-        Luukku7 = new Luukku(true, "", true);
-        Luukku8 = new Luukku(true, "", true);
-        Luukku9 = new Luukku(true, "Music/Taivas Lyö Tulta.wav", true);
-        Luukku10 = new Luukku(true, "", true);
-        Luukku11 = new Luukku(true, "", true);
-        Luukku12 = new Luukku(true, "", true);
-        Luukku13 = new Luukku(true, "Music/POKEMON-GO-SONG-by-MISHA-FOR-KIDS-ORIGINAL.wav", true);
-        Luukku14 = new Luukku(true, "", true);
-        Luukku15 = new Luukku(true, "", true);
-        Luukku16 = new Luukku(true, "Music/Vesa-Matti Hyvaa puuta.wav", true);
-        Luukku17 = new Luukku(true, "", true);
-        Luukku18 = new Luukku(true, "", true);
-        Luukku19 = new Luukku(true, "", true);
-        Luukku20 = new Luukku(true, "Music/Mining Diamonds.wav", true);
-        Luukku21 = new Luukku(true, "Music/Kolme Yötä Jouluun.wav", true);
-        Luukku22 = new Luukku(true, "", true);
-        Luukku23 = new Luukku(true, "Music/Romi Packalen - Final Countdown.wav", true);
-        Luukku24 = new Luukku(true, "Music/Joulupukki - Valkoparta.wav", true);
+        Luukku1 = new Luukku(false, "Music/Cascada - Last Christmas.wav", true);
+        Luukku2 = new Luukku(false, "Music/Juice Leskinen - Sika.wav", true);
+        Luukku3 = new Luukku(false, "Music/Aamen.wav", true);
+        Luukku4 = new Luukku(false, "", true);
+        Luukku5 = new Luukku(false, "Music/10v100v.wav", true);
+        Luukku6 = new Luukku(false, "Music/Maamme laulu.wav", true);
+        Luukku7 = new Luukku(false, "", true);
+        Luukku8 = new Luukku(false, "", true);
+        Luukku9 = new Luukku(false, "Music/Taivas Lyö Tulta.wav", true);
+        Luukku10 = new Luukku(false, "", true);
+        Luukku11 = new Luukku(false, "", true);
+        Luukku12 = new Luukku(false, "", true);
+        Luukku13 = new Luukku(false, "Music/POKEMON-GO-SONG-by-MISHA-FOR-KIDS-ORIGINAL.wav", true);
+        Luukku14 = new Luukku(false, "", true);
+        Luukku15 = new Luukku(false, "", true);
+        Luukku16 = new Luukku(false, "Music/Vesa-Matti Hyvaa puuta.wav", true);
+        Luukku17 = new Luukku(false, "", true);
+        Luukku18 = new Luukku(false, "", true);
+        Luukku19 = new Luukku(false, "", true);
+        Luukku20 = new Luukku(false, "Music/Mining Diamonds.wav", true);
+        Luukku21 = new Luukku(false, "Music/Kolme Yötä Jouluun.wav", true);
+        Luukku22 = new Luukku(false, "", true);
+        Luukku23 = new Luukku(false, "Music/Romi Packalen - Final Countdown.wav", true);
+        Luukku24 = new Luukku(false, "Music/Joulupukki - Valkoparta.wav", true);
 
         file = new File(Luukku1, Luukku2, Luukku3, Luukku4, Luukku5, Luukku6,
                 Luukku7, Luukku8, Luukku9, Luukku10, Luukku11, Luukku12,
@@ -593,6 +593,7 @@ public class Main extends javax.swing.JFrame {
             file.lisaaLuukut();
             file.Kirjoitus();
             luukku13.setVisible(false);
+            nro13.setVisible(false);
         }
     }//GEN-LAST:event_luukku13ActionPerformed
 
@@ -603,6 +604,7 @@ public class Main extends javax.swing.JFrame {
             file.lisaaLuukut();
             file.Kirjoitus();
             luukku1.setVisible(false);
+            nro1.setVisible(false);
         }
     }//GEN-LAST:event_luukku1ActionPerformed
 
@@ -613,6 +615,8 @@ public class Main extends javax.swing.JFrame {
             file.lisaaLuukut();
             file.Kirjoitus();
             luukku17.setVisible(false);
+            nro17.setVisible(false);
+
         }
     }//GEN-LAST:event_luukku17ActionPerformed
 
@@ -623,6 +627,7 @@ public class Main extends javax.swing.JFrame {
             file.lisaaLuukut();
             file.Kirjoitus();
             luukku2.setVisible(false);
+            nro2.setVisible(false);
         }
     }//GEN-LAST:event_luukku2ActionPerformed
 
@@ -633,6 +638,7 @@ public class Main extends javax.swing.JFrame {
             file.lisaaLuukut();
             file.Kirjoitus();
             luukku22.setVisible(false);
+            nro22.setVisible(false);
         }
     }//GEN-LAST:event_luukku22ActionPerformed
 
@@ -643,6 +649,7 @@ public class Main extends javax.swing.JFrame {
             file.lisaaLuukut();
             file.Kirjoitus();
             luukku6.setVisible(false);
+            nro6.setVisible(false);
         }
     }//GEN-LAST:event_luukku6ActionPerformed
 
@@ -653,6 +660,7 @@ public class Main extends javax.swing.JFrame {
             file.lisaaLuukut();
             file.Kirjoitus();
             luukku9.setVisible(false);
+            nro9.setVisible(false);
         }
     }//GEN-LAST:event_luukku9ActionPerformed
 
@@ -663,6 +671,7 @@ public class Main extends javax.swing.JFrame {
             file.lisaaLuukut();
             file.Kirjoitus();
             luukku5.setVisible(false);
+            nro5.setVisible(false);
         }
     }//GEN-LAST:event_luukku5ActionPerformed
 
@@ -673,16 +682,18 @@ public class Main extends javax.swing.JFrame {
             file.lisaaLuukut();
             file.Kirjoitus();
             luukku16.setVisible(false);
+            nro16.setVisible(false);
         }
     }//GEN-LAST:event_luukku16ActionPerformed
 
     private void luukku24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_luukku24ActionPerformed
-        if (Luukku13.getAvattavissa()) {
+        if (Luukku24.getAvattavissa()) {
             music.stopMusic();
-            music.audio(Luukku13.getMusic());
+            music.audio(Luukku24.getMusic());
             file.lisaaLuukut();
             file.Kirjoitus();
-            luukku13.setVisible(false);
+            luukku24.setVisible(false);
+            nro24.setVisible(false);
         }
     }//GEN-LAST:event_luukku24ActionPerformed
 
@@ -693,6 +704,7 @@ public class Main extends javax.swing.JFrame {
             file.lisaaLuukut();
             file.Kirjoitus();
             luukku23.setVisible(false);
+            nro23.setVisible(false);
         }
     }//GEN-LAST:event_luukku23ActionPerformed
 
@@ -703,6 +715,7 @@ public class Main extends javax.swing.JFrame {
             file.lisaaLuukut();
             file.Kirjoitus();
             luukku21.setVisible(false);
+            nro21.setVisible(false);
         }
     }//GEN-LAST:event_luukku21ActionPerformed
 
@@ -713,6 +726,7 @@ public class Main extends javax.swing.JFrame {
             file.lisaaLuukut();
             file.Kirjoitus();
             luukku20.setVisible(false);
+            nro20.setVisible(false);
         }
     }//GEN-LAST:event_luukku20ActionPerformed
 
@@ -723,6 +737,7 @@ public class Main extends javax.swing.JFrame {
             file.lisaaLuukut();
             file.Kirjoitus();
             luukku12.setVisible(false);
+            nro12.setVisible(false);
         }
     }//GEN-LAST:event_luukku12ActionPerformed
 
@@ -733,6 +748,7 @@ public class Main extends javax.swing.JFrame {
             file.lisaaLuukut();
             file.Kirjoitus();
             luukku3.setVisible(false);
+            nro3.setVisible(false);
         }
     }//GEN-LAST:event_luukku3ActionPerformed
 
@@ -760,9 +776,32 @@ public class Main extends javax.swing.JFrame {
         luukku21.setVisible(Luukku21.getAvattu());
         luukku22.setVisible(Luukku22.getAvattu());
         luukku23.setVisible(Luukku23.getAvattu());
-        System.out.println(Luukku23.getAvattu());
-        System.out.println(Luukku24.getAvattu());
         luukku24.setVisible(Luukku24.getAvattu());
+        nro1.setVisible(Luukku1.getAvattu());
+        nro2.setVisible(Luukku2.getAvattu());
+        nro3.setVisible(Luukku3.getAvattu());
+        nro4.setVisible(Luukku4.getAvattu());
+        nro5.setVisible(Luukku5.getAvattu());
+        nro6.setVisible(Luukku6.getAvattu());
+        nro7.setVisible(Luukku7.getAvattu());
+        nro8.setVisible(Luukku8.getAvattu());
+        nro9.setVisible(Luukku9.getAvattu());
+        nro10.setVisible(Luukku10.getAvattu());
+        nro11.setVisible(Luukku11.getAvattu());
+        nro12.setVisible(Luukku12.getAvattu());
+        nro13.setVisible(Luukku13.getAvattu());
+        nro14.setVisible(Luukku14.getAvattu());
+        nro15.setVisible(Luukku15.getAvattu());
+        nro16.setVisible(Luukku16.getAvattu());
+        nro17.setVisible(Luukku17.getAvattu());
+        nro18.setVisible(Luukku18.getAvattu());
+        nro19.setVisible(Luukku19.getAvattu());
+        nro20.setVisible(Luukku20.getAvattu());
+        nro21.setVisible(Luukku21.getAvattu());
+        nro22.setVisible(Luukku22.getAvattu());
+        nro23.setVisible(Luukku23.getAvattu());
+        nro24.setVisible(Luukku24.getAvattu());
+
     }
 
     /**
