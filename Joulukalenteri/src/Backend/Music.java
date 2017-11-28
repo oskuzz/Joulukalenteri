@@ -25,19 +25,7 @@ public class Music {
         }
     }
 
-    public void audioLoop(String audio) {
-        try {
-            if (!audio.equals("")) {
-                File file = new File(audio);
-                clip = AudioSystem.getClip();
-                clip.open(AudioSystem.getAudioInputStream(file));
-                clip.start();
-                clip.loop(Clip.LOOP_CONTINUOUSLY);
-            }
-        } catch (Exception e) {
-            System.err.println("Put the music.wav file in the sound folder if you want to play background music, only optional!");
-        }
-    }
+    
 
     public void stopMusic() {
         if (clip != null) {
